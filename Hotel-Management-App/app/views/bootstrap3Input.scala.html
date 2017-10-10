@@ -1,0 +1,7 @@
+@(elements: helper.FieldElements)
+@if(!elements.args.contains('hideIt)) {
+    <h5 for="@elements.id">@elements.label</h5>
+}
+@elements.input
+@*<p class="help-inline">@elements.infos.mkString(", ")</p>*@
+<span class="errors_boot">@elements.errors.mkString(", ")</span>

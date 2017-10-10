@@ -1,0 +1,30 @@
+@(ex:Throwable)
+
+
+@main("Oops !") {
+
+    @if(play.api.Play.isDev(play.api.Play.current)) {
+        <p class="lead">
+            <code>
+            @(ex.getMessage)
+            </code>
+        </p>
+        <div class="page-header">
+            <h4>Stacktrace</h4>
+        </div>
+        <div class="">
+            <pre>
+                <code>@({
+                    val u = new java.io.StringWriter; ex.printStackTrace(new java.io.PrintWriter(u)); u.toString
+                })</code></pre>
+        </div>
+    }else{
+        <div style="text-align: center">
+            <h1>Oops!</h1>
+            <h4>Something went wrong.</h4>
+
+            <p>Please try going back to the <a href="/" >Home page</a></p>
+        </div>
+    }
+
+}
