@@ -1,6 +1,5 @@
 package sharedfunctions
 
-import models.CCDetail
 import play.data.Form
 import views.html.b3
 

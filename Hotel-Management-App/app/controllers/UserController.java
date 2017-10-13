@@ -1,5 +1,7 @@
 package controllers;
 
+import forms.AppUserForm;
+import models.AppUser;
 import play.Logger;
 import play.data.DynamicForm;
 import play.data.Form;
@@ -18,6 +20,33 @@ public class UserController extends Controller{
     }
 
     public Result registration(){
-        return ok(registration.render());
+        Form <AppUserForm> appUserForm = Form.form(AppUserForm.class);
+        return ok(registration.render(appUserForm));
+    }
+
+    public Result save(){
+        System.out.println("in method o");
+        Form <AppUserForm> appUserForm = Form.form(AppUserForm.class).bindFromRequest();
+
+        if(appUserForm.hasErrors()){
+            flash("danger", "Invalid form selection");
+            return badRequest(registration.render(appUserForm));
+        }
+
+        AppUserForm data = appUserForm.get();
+        AppUser appUser = new AppUser();
+        appUser.firstName = data.firstName;
+        appUser.lastName = data.lastName;
+        appUser.password = data.password;
+        appUser.gender = data.gender;
+        appUser.mobileNumber = data.mobileNumber;
+        appUser.date = data.date;
+        System.out.println("first name is: "+appUser.firstName);
+        System.out.println("last name is: "+appUser.lastName);
+        System.out.println("password is: "+appUser.password);
+        System.out.println("gender is: "+appUser.gender);
+        System.out.println("mobile number is: "+appUser.mobileNumber);
+        System.out.println("date is: "+appUser.date);
+        return ok();
     }
 }

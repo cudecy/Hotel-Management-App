@@ -1,15 +1,16 @@
-@()
+@(appUserForm: Form[forms.AppUserForm])
 
 @main("Registration") {
     @*//    All your design's come in here. please dont use the following tags: head, body. use divs instead*@
 <div>
     <div class=" container">
         <h3 class="page-header h3"style="text-align: center; background-color: black;">Registration</h3>
+        <form href="/registration/save" form action="controllers.routes.UserController.save()" method="POST">
         <div class="packageSquare col-md-6" style="background-color: black" >
             <div class="col-md-3 pull-left">
-                <input class="form-control" type="text" style="background-color: #DFC977; color: #000000"  placeholder="First Name">
-                <input class="form-control" type="password" style="background-color: #DFC977; color: #000000"  placeholder="Password">
-                <select style="background-color: #DFC977; color: #000000">
+                <input id="firstName" name="firstName" class="form-control" type="text" style="background-color: #DFC977; color: #000000"  value="@appUserForm.field("firstName").value"placeholder="First Name" required>
+                <input id="password" name="password" class="form-control" type="password" style="background-color: #DFC977; color: #000000" value="@appUserForm.field("password").value" placeholder="Password" required>
+                <select id="gender" name="gender" style="background-color: #DFC977; color: #000000" required>
                     <option value="gender"> Gender </option>
                     <option value="male" style="color: white"> Male </option>
                     <option value="female" style="color: white"> Female </option>
@@ -17,12 +18,13 @@
 
             </div>
             <div class="col-md-3 pull-right">
-                <input class="form-control" type="text" style="background-color: #DFC977; color: #000000"  placeholder="Last Name">
-                <input class="form-control" type="password" style="background-color: #DFC977; color: #000000"  placeholder="Confirm Password">
-                <input class="form-control" type="text" style="background-color: #DFC977; color: #000000"  placeholder="Mobile number">
+                <input id="lastName" name="lastName" class="form-control" type="text" style="background-color: #DFC977; color: #000000" value="@appUserForm.field("lastName").value" placeholder="Last Name" required>
+                <input id="confirmPassword" name="confirmPassword" class="form-control" type="password" style="background-color: #DFC977; color: #000000"  placeholder="Confirm Password" required>
+                <input id="mobileNumber" name="mobileNumber" class="form-control" type="text" style="background-color: #DFC977; color: #000000" value="@appUserForm.field("mobileNumber").value" placeholder="Mobile number" required>
             </div>
-            <input class=" form-control col-md-3" type="date" style="background-color: #DFC977; color: #000000" >
-            <button type="submit"class="col-md-6 col-lg-push-3" ; style="background-color: #DFC977; color: #000000;align-self: center"> Submit </button></div>
+            <input id="date" name="date" class=" form-control col-md-3" type="date" value="@appUserForm.field("date").value"style="background-color: #DFC977; color: #000000" required>
+            <input type="submit" class="col-md-6 col-lg-push-3" style="background-color: #DFC977; color: #000000;align-self: center" value="Submit"></div>
+        </form>
     </div>
 </div>
     }
