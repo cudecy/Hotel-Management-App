@@ -56,8 +56,8 @@ Seq[Any](format.raw/*1.19*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Thu Oct 19 05:13:38 AEDT 2017
-                  SOURCE: C:/Users/mistu/Downloads/htmgmtsys/Hotel-Management-App/Hotel-Management-App/app/views/index.scala.html
+                  DATE: Fri Oct 20 16:41:00 WAT 2017
+                  SOURCE: C:/Users/Longbridge PC/Documents/HOTMGMT/Hotel-Management-App/Hotel-Management-App/app/views/index.scala.html
                   HASH: 3ef03cb4c1c231acbcf2966cffd468e326536b12
                   MATRIX: 745->1|857->18|887->23|918->46|957->48|991->57|1005->63|1058->96|1092->101
                   LINES: 27->1|32->1|34->3|34->3|34->3|36->5|36->5|36->5|38->7

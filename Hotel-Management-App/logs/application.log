@@ -1,9 +1,33 @@
-2017-10-20 04:23:09,373 [INFO] from play.core.server.NettyServer in pool-4-thread-2 - Listening for HTTP on /0:0:0:0:0:0:0:0:9003
-2017-10-20 04:23:19,277 [WARN] from application in ForkJoinPool-1-worker-1 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
-2017-10-20 04:23:21,646 [WARN] from application in ForkJoinPool-1-worker-1 - application.conf @ file:/C:/Users/mistu/Downloads/htmgmtsys/Hotel-Management-App/Hotel-Management-App/target/scala-2.11/classes/application.conf: 41: logStatements is deprecated, use bonecp.logStatements instead
-2017-10-20 04:23:21,668 [WARN] from com.jolbox.bonecp.BoneCPConfig in ForkJoinPool-1-worker-1 - LogStatementsEnabled is set to true, but log4j level is not set at DEBUG. Disabling statement logging.
-2017-10-20 04:23:22,885 [INFO] from play.api.db.DefaultDBApi in ForkJoinPool-1-worker-1 - Database [default] connected at jdbc:mysql://127.0.0.1/hotel-management
-2017-10-20 04:23:24,504 [WARN] from com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager in ForkJoinPool-1-worker-1 - Bean [models.AppUser] has no unique id set
-2017-10-20 04:23:24,831 [WARN] from com.avaje.ebeaninternal.server.ddl.CreateTableVisitor in ForkJoinPool-1-worker-1 - Column name [date] is a suspected SQL reserved word for property models.AppUser.date
-2017-10-20 04:23:26,613 [INFO] from application in ForkJoinPool-1-worker-1 - Application has been shutdown but is now started
-2017-10-20 04:23:26,644 [INFO] from play.api.Play in ForkJoinPool-1-worker-1 - Application started (Dev)
+2017-10-20 16:45:12,253 [INFO] from play.core.server.NettyServer in pool-4-thread-4 - Listening for HTTP on /0:0:0:0:0:0:0:0:9002
+2017-10-20 16:47:01,363 [WARN] from application in ForkJoinPool-1-worker-1 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2017-10-20 16:47:05,908 [WARN] from application in ForkJoinPool-1-worker-1 - application.conf @ file:/C:/Users/Longbridge%20PC/Documents/HOTMGMT/Hotel-Management-App/Hotel-Management-App/target/scala-2.11/classes/application.conf: 41: logStatements is deprecated, use bonecp.logStatements instead
+2017-10-20 16:47:05,923 [WARN] from com.jolbox.bonecp.BoneCPConfig in ForkJoinPool-1-worker-1 - LogStatementsEnabled is set to true, but log4j level is not set at DEBUG. Disabling statement logging.
+2017-10-20 16:47:11,347 [INFO] from play.api.db.DefaultDBApi in ForkJoinPool-1-worker-1 - Database [default] connected at jdbc:mysql://127.0.0.1/hotel-management
+2017-10-20 16:47:14,383 [WARN] from com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager in ForkJoinPool-1-worker-1 - Bean [models.AppUser] has no unique id set
+2017-10-20 16:47:14,798 [WARN] from com.avaje.ebeaninternal.server.ddl.CreateTableVisitor in ForkJoinPool-1-worker-1 - Column name [date] is a suspected SQL reserved word for property models.AppUser.date
+2017-10-20 16:47:17,990 [INFO] from application in ForkJoinPool-1-worker-1 - Application has been shutdown but is now started
+2017-10-20 16:47:18,125 [INFO] from play.api.Play in ForkJoinPool-1-worker-1 - Application started (Dev)
+2017-10-20 16:47:25,980 [WARN] from application in application-akka.actor.default-dispatcher-4 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2017-10-20 16:47:26,189 [WARN] from application in application-akka.actor.default-dispatcher-4 - application.conf @ file:/C:/Users/Longbridge%20PC/Documents/HOTMGMT/Hotel-Management-App/Hotel-Management-App/target/scala-2.11/classes/application.conf: 41: logStatements is deprecated, use bonecp.logStatements instead
+2017-10-20 16:47:26,190 [WARN] from com.jolbox.bonecp.BoneCPConfig in application-akka.actor.default-dispatcher-4 - LogStatementsEnabled is set to true, but log4j level is not set at DEBUG. Disabling statement logging.
+2017-10-20 16:47:26,266 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-4 - Database [default] connected at jdbc:mysql://127.0.0.1/hotel-management
+2017-10-20 16:47:26,487 [WARN] from com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager in application-akka.actor.default-dispatcher-4 - Bean [models.AppUser] has no unique id set
+2017-10-20 16:47:26,502 [WARN] from com.avaje.ebeaninternal.server.ddl.CreateTableVisitor in application-akka.actor.default-dispatcher-4 - Column name [date] is a suspected SQL reserved word for property models.AppUser.date
+2017-10-20 16:47:26,737 [INFO] from application in application-akka.actor.default-dispatcher-4 - Application has been shutdown but is now started
+2017-10-20 16:47:26,738 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-4 - Application started (Dev)
+2017-10-20 16:54:28,819 [WARN] from application in application-akka.actor.default-dispatcher-15 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2017-10-20 16:54:29,096 [WARN] from application in application-akka.actor.default-dispatcher-15 - application.conf @ file:/C:/Users/Longbridge%20PC/Documents/HOTMGMT/Hotel-Management-App/Hotel-Management-App/target/scala-2.11/classes/application.conf: 41: logStatements is deprecated, use bonecp.logStatements instead
+2017-10-20 16:54:29,097 [WARN] from com.jolbox.bonecp.BoneCPConfig in application-akka.actor.default-dispatcher-15 - LogStatementsEnabled is set to true, but log4j level is not set at DEBUG. Disabling statement logging.
+2017-10-20 16:54:29,421 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-15 - Database [default] connected at jdbc:mysql://127.0.0.1/hotel-management
+2017-10-20 16:54:29,686 [WARN] from com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager in application-akka.actor.default-dispatcher-15 - Bean [models.AppUser] has no unique id set
+2017-10-20 16:54:29,706 [WARN] from com.avaje.ebeaninternal.server.ddl.CreateTableVisitor in application-akka.actor.default-dispatcher-15 - Column name [date] is a suspected SQL reserved word for property models.AppUser.date
+2017-10-20 16:54:30,008 [INFO] from application in application-akka.actor.default-dispatcher-15 - Application has been shutdown but is now started
+2017-10-20 16:54:30,019 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-15 - Application started (Dev)
+2017-10-20 16:55:47,348 [WARN] from application in application-akka.actor.default-dispatcher-13 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2017-10-20 16:55:47,599 [WARN] from application in application-akka.actor.default-dispatcher-13 - application.conf @ file:/C:/Users/Longbridge%20PC/Documents/HOTMGMT/Hotel-Management-App/Hotel-Management-App/target/scala-2.11/classes/application.conf: 41: logStatements is deprecated, use bonecp.logStatements instead
+2017-10-20 16:55:47,600 [WARN] from com.jolbox.bonecp.BoneCPConfig in application-akka.actor.default-dispatcher-13 - LogStatementsEnabled is set to true, but log4j level is not set at DEBUG. Disabling statement logging.
+2017-10-20 16:55:47,657 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-13 - Database [default] connected at jdbc:mysql://127.0.0.1/hotel-management
+2017-10-20 16:55:47,875 [WARN] from com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager in application-akka.actor.default-dispatcher-13 - Bean [models.AppUser] has no unique id set
+2017-10-20 16:55:47,887 [WARN] from com.avaje.ebeaninternal.server.ddl.CreateTableVisitor in application-akka.actor.default-dispatcher-13 - Column name [date] is a suspected SQL reserved word for property models.AppUser.date
+2017-10-20 16:55:48,012 [INFO] from application in application-akka.actor.default-dispatcher-13 - Application has been shutdown but is now started
+2017-10-20 16:55:48,013 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-13 - Application started (Dev)

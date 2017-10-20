@@ -68,8 +68,8 @@ http://www.tooplate.com/view/2079-garage
                     <li>Give us a call : +66666666 </li>
                 </ul>
                 <ul class="logreg">
-                    <li><a href="#">Login </a> </li>
-                    <li><a href="#"><span class="register">Register</span></a></li>
+                    <li><a href="/login">Login </a> </li>
+                    <li><a href="/registration"><span class="register">Register</span></a></li>
                 </ul>
             </div>
                 <!-- Navbar Up -->
@@ -87,7 +87,7 @@ http://www.tooplate.com/view/2079-garage
                 </div>
                 <div class="collapse navbar-collapse" id="upmenu">
                     <ul class="nav navbar-nav" id="navbarontop">
-                        <li class="active"><a href="#">HOME</a> </li>
+                        <li class="active"><a href="/">HOME</a> </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle"	data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CATEGORIES <span class="caret"></span></a>
                             <ul class="dropdown-menu dropdowncostume">
@@ -527,7 +527,7 @@ http://www.tooplate.com/view/2079-garage
                     <li role="presentation" ><a href="#/" role="button">ABOUT US</a></li>
                     <li role="presentation"><a href="#/">CATEGORIES</a></li>
                     <li role="presentation"><a href="#/">PREORDERS</a></li>
-                    <li role="presentation"><a href="#/">CONTACT US</a></li>
+                    <li role="presentation"><a href="/contact">CONTACT US</a></li>
                     <li role="presentation"><a href="#/">RECEIVE OUR NEWSLETTER</a></li>
                 </ul>
                 <p>"Lorem ipsum dolor sit amet, consectetur,  sed do eiusmod tempor incididunt <br>
@@ -550,11 +550,11 @@ http://www.tooplate.com/view/2079-garage
             </div>
         </div>
 
-        <script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/jquery.js"></script>
-        <script type="text/javascript" src="source/js/isotope.js"></script>
-        <script type="text/javascript" src="source/js/myscript.js"></script>
-        <script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/jquery.1.11.js"></script>
-        <script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+        <script type="text/javascript" src=""""),_display_(/*523.46*/routes/*523.52*/.Assets.at("javascripts/jquery-1.9.0.min.js")),format.raw/*523.97*/(""""></script>
+        <script type="text/javascript" src=""""),_display_(/*524.46*/routes/*524.52*/.Assets.at("javascripts/isotope.js")),format.raw/*524.88*/(""""></script>
+        <script type="text/javascript" src=""""),_display_(/*525.46*/routes/*525.52*/.Assets.at("javascripts/myscript.js")),format.raw/*525.89*/(""""></script>
+        """),format.raw/*526.105*/("""
+        """),format.raw/*527.9*/("""<script type="text/javascript" src=""""),_display_(/*527.46*/routes/*527.52*/.Assets.at("javascripts/bootstrap.min.js")),format.raw/*527.94*/(""""></script>
     </body>
 </html>
 
@@ -578,11 +578,11 @@ http://www.tooplate.com/view/2079-garage
 object main extends main_Scope0.main
               /*
                   -- GENERATED --
-                  DATE: Thu Oct 19 21:19:03 AEDT 2017
-                  SOURCE: C:/Users/mistu/Downloads/htmgmtsys/Hotel-Management-App/Hotel-Management-App/app/views/main.scala.html
-                  HASH: d1eec1e5fb2b8de3757dfbcab4bf2cb01883f580
-                  MATRIX: 748->1|907->31|937->74|965->76|1513->597|1528->603|1584->638|1669->696|1684->702|1769->765|1854->823|1869->829|1918->857|2003->915|2018->921|2068->950|3648->2503|3663->2509|3715->2539|5188->4043|5246->4073|5874->4674|5889->4680|5941->4711|6386->5128|6402->5134|6455->5165|6895->5577|6911->5583|6962->5612|11749->10371|11765->10377|11823->10413|13689->12251|13705->12257|13764->12294|16787->15289|16803->15295|16854->15324|18743->17185|18759->17191|18810->17220|20693->19075|20709->19081|20760->19110|22649->20971|22665->20977|22716->21006|24598->22860|24614->22866|24665->22895|25823->24024|25840->24030|25896->24063|26633->24772|26649->24778|26700->24807|28587->26666|28603->26672|28654->26701|30543->28562|30559->28568|30610->28597|32585->30544|32601->30550|32654->30581|33070->30969|33086->30975|33143->31010|33650->31489|33666->31495|33729->31535|34507->32285|34523->32291|34573->32319
-                  LINES: 27->1|33->1|35->5|36->6|52->22|52->22|52->22|53->23|53->23|53->23|54->24|54->24|54->24|55->25|55->25|55->25|85->55|85->55|85->55|108->78|109->79|122->92|122->92|122->92|130->100|130->100|130->100|138->108|138->108|138->108|212->182|212->182|212->182|238->208|238->208|238->208|282->252|282->252|282->252|310->280|310->280|310->280|338->308|338->308|338->308|366->336|366->336|366->336|394->364|394->364|394->364|409->379|409->379|409->379|422->392|422->392|422->392|450->420|450->420|450->420|478->448|478->448|478->448|509->479|509->479|509->479|516->486|516->486|516->486|524->494|524->494|524->494|535->505|535->505|535->505
+                  DATE: Fri Oct 20 16:41:01 WAT 2017
+                  SOURCE: C:/Users/Longbridge PC/Documents/HOTMGMT/Hotel-Management-App/Hotel-Management-App/app/views/main.scala.html
+                  HASH: cb679f78eba713a7c396646c598d7460f626fc3f
+                  MATRIX: 748->1|907->31|937->74|965->76|1513->597|1528->603|1584->638|1669->696|1684->702|1769->765|1854->823|1869->829|1918->857|2003->915|2018->921|2068->950|3665->2520|3680->2526|3732->2556|5205->4060|5263->4090|5891->4691|5906->4697|5958->4728|6403->5145|6419->5151|6472->5182|6912->5594|6928->5600|6979->5629|11766->10388|11782->10394|11840->10430|13706->12268|13722->12274|13781->12311|16804->15306|16820->15312|16871->15341|18760->17202|18776->17208|18827->17237|20710->19092|20726->19098|20777->19127|22666->20988|22682->20994|22733->21023|24615->22877|24631->22883|24682->22912|25840->24041|25857->24047|25913->24080|26650->24789|26666->24795|26717->24824|28604->26683|28620->26689|28671->26718|30560->28579|30576->28585|30627->28614|32602->30561|32618->30567|32671->30598|33087->30986|33103->30992|33160->31027|33667->31506|33683->31512|33746->31552|34530->32308|34546->32314|34596->32342|35485->33203|35501->33209|35568->33254|35654->33312|35670->33318|35728->33354|35814->33412|35830->33418|35889->33455|35940->33572|35978->33582|36043->33619|36059->33625|36123->33667
+                  LINES: 27->1|33->1|35->5|36->6|52->22|52->22|52->22|53->23|53->23|53->23|54->24|54->24|54->24|55->25|55->25|55->25|85->55|85->55|85->55|108->78|109->79|122->92|122->92|122->92|130->100|130->100|130->100|138->108|138->108|138->108|212->182|212->182|212->182|238->208|238->208|238->208|282->252|282->252|282->252|310->280|310->280|310->280|338->308|338->308|338->308|366->336|366->336|366->336|394->364|394->364|394->364|409->379|409->379|409->379|422->392|422->392|422->392|450->420|450->420|450->420|478->448|478->448|478->448|509->479|509->479|509->479|516->486|516->486|516->486|524->494|524->494|524->494|535->505|535->505|535->505|553->523|553->523|553->523|554->524|554->524|554->524|555->525|555->525|555->525|556->526|557->527|557->527|557->527|557->527
                   -- GENERATED --
               */
           

@@ -49,8 +49,8 @@ Seq[Any]()
 object registration extends registration_Scope0.registration
               /*
                   -- GENERATED --
-                  DATE: Thu Oct 19 05:13:39 AEDT 2017
-                  SOURCE: C:/Users/mistu/Downloads/htmgmtsys/Hotel-Management-App/Hotel-Management-App/app/views/registration.scala.html
+                  DATE: Fri Oct 20 16:41:01 WAT 2017
+                  SOURCE: C:/Users/Longbridge PC/Documents/HOTMGMT/Hotel-Management-App/Hotel-Management-App/app/views/registration.scala.html
                   HASH: 6d3e430ef01b57054b2a6e984a32734f93c10afa
                   MATRIX: 
                   LINES: 

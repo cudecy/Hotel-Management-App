@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/mistu/Downloads/htmgmtsys/Hotel-Management-App/Hotel-Management-App/conf/routes
-// @DATE:Thu Oct 19 21:06:45 AEDT 2017
+// @SOURCE:C:/Users/Longbridge PC/Documents/HOTMGMT/Hotel-Management-App/Hotel-Management-App/conf/routes
+// @DATE:Fri Oct 20 16:40:57 WAT 2017
 
 package controllers;
 

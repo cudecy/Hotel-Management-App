@@ -67,8 +67,8 @@ Seq[Any](format.raw/*2.1*/("""<div class="modal">
 object dialog extends dialog_Scope0.dialog
               /*
                   -- GENERATED --
-                  DATE: Thu Oct 19 05:13:38 AEDT 2017
-                  SOURCE: C:/Users/mistu/Downloads/htmgmtsys/Hotel-Management-App/Hotel-Management-App/app/views/dialog.scala.html
+                  DATE: Fri Oct 20 16:41:00 WAT 2017
+                  SOURCE: C:/Users/Longbridge PC/Documents/HOTMGMT/Hotel-Management-App/Hotel-Management-App/app/views/dialog.scala.html
                   HASH: 7984143cef27b72844104421e938cd994345d638
                   MATRIX: 829->2
                   LINES: 32->2

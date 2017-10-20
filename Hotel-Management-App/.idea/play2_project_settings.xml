@@ -13,8 +13,7 @@
         <entry key="root">
           <value>
             <ProjectSettingsEntry>
-              <option name="sourceDir" value="C:\Users\mistu\Downloads\htmgmtsys\Hotel-Management-App\Hotel-Management-App\app" />
-              <option name="confDir" value="C:\Users\mistu\Downloads\htmgmtsys\Hotel-Management-App\Hotel-Management-App\app" />
+              <option name="confDir" value="C:\Users\Longbridge PC\Documents\HOTMGMT\Hotel-Management-App\Hotel-Management-App\app" />
               <option name="templateImports">
                 <list>
                   <option value="models._" />
@@ -39,7 +38,7 @@
                   <option value="play.libs.F" />
                 </list>
               </option>
-              <option name="uri" value="/C:/Users/mistu/Downloads/htmgmtsys/Hotel-Management-App/Hotel-Management-App" />
+              <option name="uri" value="/C:/Users/Longbridge%20PC/Documents/HOTMGMT/Hotel-Management-App/Hotel-Management-App" />
             </ProjectSettingsEntry>
           </value>
         </entry>

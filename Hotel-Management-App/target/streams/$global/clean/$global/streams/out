@@ -1,4 +1,4 @@
-java.lang.IllegalArgumentException: requirement failed: Source file 'C:\Users\mistu\Downloads\htmgmtsys\Hotel-Management-App\Hotel-Management-App\target\resolution-cache\htmgmtsys\htmgmtsys$sources_2.11\1.0\resolved.xml.properties' does not exist.
+java.lang.IllegalArgumentException: requirement failed: Source file 'C:\Users\Longbridge PC\Documents\HOTMGMT\Hotel-Management-App\Hotel-Management-App\target\resolution-cache\htmgmtsys\htmgmtsys$sources_2.11\1.0\resolved.xml.properties' does not exist.
 	at scala.Predef$.require(Predef.scala:233)
 	at sbt.IO$.copyFile(IO.scala:583)
 	at sbt.IO$.move(IO.scala:786)
@@ -12,8 +12,8 @@ java.lang.IllegalArgumentException: requirement failed: Source file 'C:\Users\mi
 	at sbt.Defaults$$anonfun$doClean$1.apply(Defaults.scala:695)
 	at sbt.IO$.withTemporaryDirectory(IO.scala:291)
 	at sbt.Defaults$.doClean(Defaults.scala:695)
-	at $030c2c1659cfe37e3cc0$$anonfun$$sbtdef$1.apply(C:\Users\mistu\Downloads\htmgmtsys\Hotel-Management-App\Hotel-Management-App\build.sbt:44)
-	at $030c2c1659cfe37e3cc0$$anonfun$$sbtdef$1.apply(C:\Users\mistu\Downloads\htmgmtsys\Hotel-Management-App\Hotel-Management-App\build.sbt:44)
+	at $299940ef2beab6d6a36b$$anonfun$$sbtdef$1.apply(C:\Users\Longbridge PC\Documents\HOTMGMT\Hotel-Management-App\Hotel-Management-App\build.sbt:44)
+	at $299940ef2beab6d6a36b$$anonfun$$sbtdef$1.apply(C:\Users\Longbridge PC\Documents\HOTMGMT\Hotel-Management-App\Hotel-Management-App\build.sbt:44)
 	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
 	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
 	at sbt.std.Transform$$anon$4.work(System.scala:63)
@@ -31,4 +31,4 @@ java.lang.IllegalArgumentException: requirement failed: Source file 'C:\Users\mi
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-[error] (*:clean) java.lang.IllegalArgumentException: requirement failed: Source file 'C:\Users\mistu\Downloads\htmgmtsys\Hotel-Management-App\Hotel-Management-App\target\resolution-cache\htmgmtsys\htmgmtsys$sources_2.11\1.0\resolved.xml.properties' does not exist.
+[error] (*:clean) java.lang.IllegalArgumentException: requirement failed: Source file 'C:\Users\Longbridge PC\Documents\HOTMGMT\Hotel-Management-App\Hotel-Management-App\target\resolution-cache\htmgmtsys\htmgmtsys$sources_2.11\1.0\resolved.xml.properties' does not exist.

@@ -47,8 +47,8 @@ http://www.tooplate.com/view/2079-garage
         <meta name="author" content="Web Domus Italia">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href=""""),_display_(/*19.55*/routes/*19.61*/.Assets.at("css/bootstrap.css/bootstrap.mim.css")),format.raw/*19.110*/("""">
-        <link rel="stylesheet" type="text/css" href=""""),_display_(/*20.55*/routes/*20.61*/.Assets.at("source/font-awesome-4.5.0/css/font-awesome.css")),format.raw/*20.121*/("""">
+        <link rel="stylesheet" type="text/css" href=""""),_display_(/*19.55*/routes/*19.61*/.Assets.at("css/bootstrap.css")),format.raw/*19.92*/("""">
+        <link rel="stylesheet" type="text/css" href=""""),_display_(/*20.55*/routes/*20.61*/.Assets.at("Fonts/font-awesome-4.5.0/css/font-awesome.min.css")),format.raw/*20.124*/("""">
         <link rel="stylesheet" type="text/css" href=""""),_display_(/*21.55*/routes/*21.61*/.Assets.at("css/slider.css")),format.raw/*21.89*/("""">
         <link rel="stylesheet" type="text/css" href=""""),_display_(/*22.55*/routes/*22.61*/.Assets.at("css/mystyle.css")),format.raw/*22.90*/("""">
         <link rel="stylesheet" type="text/css" href=""""),_display_(/*23.55*/routes/*23.61*/.Assets.at("css/contactstyle.css")),format.raw/*23.95*/("""">
@@ -67,8 +67,8 @@ http://www.tooplate.com/view/2079-garage
                     <li>Give us a call : +66666666 </li>
                 </ul>
                 <ul class="logreg">
-                    <li><a href="#">Login </a> </li>
-                    <li><a href="#"><span class="register">Register</span></a></li>
+                    <li><a href="/login">Login </a> </li>
+                    <li><a href="/registration"><span class="register">Register</span></a></li>
                 </ul>
             </div>
                 <!-- Navbar Up -->
@@ -81,12 +81,12 @@ http://www.tooplate.com/view/2079-garage
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand logo" href="#"><img src=""""),_display_(/*53.74*/routes/*53.80*/.Assets.at("images/logo1.png")),format.raw/*53.110*/("""" alt="logo"></a>
+                        <a class="navbar-brand logo" href="/"><img src=""""),_display_(/*53.74*/routes/*53.80*/.Assets.at("images/logo1.png")),format.raw/*53.110*/("""" alt="logo"></a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="upmenu">
                     <ul class="nav navbar-nav" id="navbarontop">
-                        <li class="active"><a href="index.html">HOME</a> </li>
+                        <li class="active"><a href="/">HOME</a> </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle"	data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CATEGORIES <span class="caret"></span></a>
                             <ul class="dropdown-menu dropdowncostume">
@@ -257,26 +257,26 @@ http://www.tooplate.com/view/2079-garage
 
         """),format.raw/*227.9*/("""</script>
 
-        <script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/jquery.js"></script>
-        <script type="text/javascript" src="source/js/myscript.js"></script> <script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
-
         <script>
-                $(window).resize(function()"""),format.raw/*233.44*/("""{"""),format.raw/*233.45*/("""
-                    """),format.raw/*234.21*/("""var new_height = $("#image_border").height();
+                $(window).resize(function()"""),format.raw/*230.44*/("""{"""),format.raw/*230.45*/("""
+                    """),format.raw/*231.21*/("""var new_height = $("#image_border").height();
                     console.log(new_height);
                     $("#googleMap").height(new_height);
-                """),format.raw/*237.17*/("""}"""),format.raw/*237.18*/(""");
+                """),format.raw/*234.17*/("""}"""),format.raw/*234.18*/(""");
 
-                $(window).load(function()"""),format.raw/*239.42*/("""{"""),format.raw/*239.43*/("""
-                    """),format.raw/*240.21*/("""var new_height = $("#image_border").height();
+                $(window).load(function()"""),format.raw/*236.42*/("""{"""),format.raw/*236.43*/("""
+                    """),format.raw/*237.21*/("""var new_height = $("#image_border").height();
                     console.log(new_height);
                     $("#googleMap").height(new_height);
                     google.maps.event.addDomListener(window, 'load', initialize());
-                """),format.raw/*244.17*/("""}"""),format.raw/*244.18*/(""");
+                """),format.raw/*241.17*/("""}"""),format.raw/*241.18*/(""");
 
         </script>
-        <script type="text/javascript" src="source/js/myscript.js"></script>
-        <script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/jquery.1.11.js"></script>
+        <script type="text/javascript" src=""""),_display_(/*244.46*/routes/*244.52*/.Assets.at("javascripts/jquery-1.9.0.min.js")),format.raw/*244.97*/(""""></script>
+        <script type="text/javascript" src=""""),_display_(/*245.46*/routes/*245.52*/.Assets.at("javascripts/isotope.js")),format.raw/*245.88*/(""""></script>
+        <script type="text/javascript" src=""""),_display_(/*246.46*/routes/*246.52*/.Assets.at("javascripts/myscript.js")),format.raw/*246.89*/(""""></script>
+        """),format.raw/*247.105*/("""
+        """),format.raw/*248.9*/("""<script type="text/javascript" src=""""),_display_(/*248.46*/routes/*248.52*/.Assets.at("javascripts/bootstrap.min.js")),format.raw/*248.94*/(""""></script>
     </body>
 </html>"""))
       }
@@ -298,11 +298,11 @@ http://www.tooplate.com/view/2079-garage
 object contact extends contact_Scope0.contact
               /*
                   -- GENERATED --
-                  DATE: Thu Oct 19 22:19:36 AEDT 2017
-                  SOURCE: C:/Users/mistu/Downloads/htmgmtsys/Hotel-Management-App/Hotel-Management-App/app/views/contact.scala.html
-                  HASH: c6314487002b0f91bb63b08e49fd2234d357ada1
-                  MATRIX: 742->1|838->3|868->7|1421->533|1436->539|1507->588|1592->646|1607->652|1689->712|1774->770|1789->776|1838->804|1923->862|1938->868|1988->897|2073->955|2088->961|2143->995|3723->2548|3738->2554|3790->2584|5985->4752|6000->4758|6052->4789|6495->5205|6510->5211|6562->5242|7002->5654|7018->5660|7069->5689|11410->10002|11426->10008|11479->10039|13082->11613|13112->11614|13163->11636|13206->11650|13236->11651|13291->11677|13457->11814|13487->11815|13673->11972|13703->11973|13758->11999|13827->12039|13857->12040|13949->12103|13979->12104|14023->12120|14394->12462|14424->12463|14475->12485|14670->12651|14700->12652|14776->12699|14806->12700|14857->12722|15137->12973|15167->12974
-                  LINES: 27->1|32->1|34->3|50->19|50->19|50->19|51->20|51->20|51->20|52->21|52->21|52->21|53->22|53->22|53->22|54->23|54->23|54->23|84->53|84->53|84->53|119->88|119->88|119->88|127->96|127->96|127->96|135->104|135->104|135->104|203->172|203->172|203->172|240->209|240->209|241->210|241->210|241->210|242->211|245->214|245->214|249->218|249->218|250->219|251->220|251->220|254->223|254->223|258->227|264->233|264->233|265->234|268->237|268->237|270->239|270->239|271->240|275->244|275->244
+                  DATE: Fri Oct 20 16:54:08 WAT 2017
+                  SOURCE: C:/Users/Longbridge PC/Documents/HOTMGMT/Hotel-Management-App/Hotel-Management-App/app/views/contact.scala.html
+                  HASH: 05e3e9a482fd55f5c764e90c761d00fa610f1ee4
+                  MATRIX: 742->1|838->3|868->7|1421->533|1436->539|1488->570|1573->628|1588->634|1673->697|1758->755|1773->761|1822->789|1907->847|1922->853|1972->882|2057->940|2072->946|2127->980|3724->2550|3739->2556|3791->2586|5977->4745|5992->4751|6044->4782|6487->5198|6502->5204|6554->5235|6994->5647|7010->5653|7061->5682|11402->9995|11418->10001|11471->10032|13074->11606|13104->11607|13155->11629|13198->11643|13228->11644|13283->11670|13449->11807|13479->11808|13665->11965|13695->11966|13750->11992|13819->12032|13849->12033|13941->12096|13971->12097|14015->12113|14118->12187|14148->12188|14199->12210|14394->12376|14424->12377|14500->12424|14530->12425|14581->12447|14861->12698|14891->12699|14989->12769|15005->12775|15072->12820|15158->12878|15174->12884|15232->12920|15318->12978|15334->12984|15393->13021|15444->13138|15482->13148|15547->13185|15563->13191|15627->13233
+                  LINES: 27->1|32->1|34->3|50->19|50->19|50->19|51->20|51->20|51->20|52->21|52->21|52->21|53->22|53->22|53->22|54->23|54->23|54->23|84->53|84->53|84->53|119->88|119->88|119->88|127->96|127->96|127->96|135->104|135->104|135->104|203->172|203->172|203->172|240->209|240->209|241->210|241->210|241->210|242->211|245->214|245->214|249->218|249->218|250->219|251->220|251->220|254->223|254->223|258->227|261->230|261->230|262->231|265->234|265->234|267->236|267->236|268->237|272->241|272->241|275->244|275->244|275->244|276->245|276->245|276->245|277->246|277->246|277->246|278->247|279->248|279->248|279->248|279->248
                   -- GENERATED --
               */
           
