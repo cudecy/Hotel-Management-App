@@ -58,7 +58,7 @@ Seq[Any](_display_(/*3.2*/flash/*3.7*/.map/*3.11*/ {/*4.5*/case (key, value) =>/
 object wflash extends wflash_Scope0.wflash_Scope1.wflash
               /*
                   -- GENERATED --
-                  DATE: Thu Oct 12 11:41:25 PDT 2017
+                  DATE: Thu Oct 19 05:13:39 AEDT 2017
                   SOURCE: C:/Users/mistu/Downloads/htmgmtsys/Hotel-Management-App/Hotel-Management-App/app/views/wflash.scala.html
                   HASH: cd1f0784630f1950219498bfe3a822399e02639d
                   MATRIX: 874->21|886->26|898->30|907->38|935->58|974->60|1010->70|1074->108|1097->111|1125->112|1304->265|1329->270

@@ -78,7 +78,7 @@ Seq[Any](format.raw/*1.16*/("""
 object errorPage extends errorPage_Scope0.errorPage
               /*
                   -- GENERATED --
-                  DATE: Thu Oct 12 11:41:25 PDT 2017
+                  DATE: Thu Oct 19 05:13:39 AEDT 2017
                   SOURCE: C:/Users/mistu/Downloads/htmgmtsys/Hotel-Management-App/Hotel-Management-App/app/views/exceptions/errorPage.scala.html
                   HASH: e3bcf08a11ca08caf57363ce8d850f6f13418c25
                   MATRIX: 767->1|876->15|908->22|930->36|969->38|1003->47|1057->93|1096->95|1132->105|1209->156|1244->171|1286->185|1486->358|1643->494|1697->530|1710->534|1749->535|1786->545|2021->750

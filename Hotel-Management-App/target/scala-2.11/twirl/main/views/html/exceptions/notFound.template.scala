@@ -74,7 +74,7 @@ Seq[Any](format.raw/*1.14*/("""
 object notFound extends notFound_Scope0.notFound
               /*
                   -- GENERATED --
-                  DATE: Thu Oct 12 11:41:25 PDT 2017
+                  DATE: Thu Oct 19 05:13:39 AEDT 2017
                   SOURCE: C:/Users/mistu/Downloads/htmgmtsys/Hotel-Management-App/Hotel-Management-App/app/views/exceptions/notFound.scala.html
                   HASH: 3e0fa117e963b5abb0cc62c180ddb39554630fe0
                   MATRIX: 762->1|852->18|870->28|973->13|1003->101|1033->106|1058->123|1097->125|1132->133|1350->324|1374->327|1502->428|1517->434|1567->463

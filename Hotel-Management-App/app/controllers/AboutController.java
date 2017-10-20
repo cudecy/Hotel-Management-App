@@ -9,8 +9,8 @@ import views.html.*;
  */
 public class AboutController extends Controller {
 
-    public Result index() {
-        return ok(about.render());
-    }
+//    public Result index() {
+//        return ok(about.render());
+//    }
 
 }

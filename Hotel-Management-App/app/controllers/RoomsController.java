@@ -9,8 +9,8 @@ import views.html.*;
  */
 public class RoomsController extends Controller {
 
-    public Result index() {
-        return ok(rooms.render());
-    }
+//    public Result index() {
+//        return ok(rooms.render());
+//    }
 
 }

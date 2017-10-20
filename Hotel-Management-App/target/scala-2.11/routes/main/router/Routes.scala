@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/mistu/Downloads/htmgmtsys/Hotel-Management-App/Hotel-Management-App/conf/routes
-// @DATE:Thu Oct 12 18:31:05 PDT 2017
+// @DATE:Thu Oct 19 21:06:45 AEDT 2017
 
 package router
 
@@ -20,7 +20,9 @@ class Routes(
   Application_2: controllers.Application,
   // @LINE:8
   UserController_0: controllers.UserController,
-  // @LINE:16
+  // @LINE:13
+  ContactController_3: controllers.ContactController,
+  // @LINE:18
   Assets_1: controllers.Assets,
   val prefix: String
 ) extends GeneratedRouter {
@@ -31,15 +33,17 @@ class Routes(
     Application_2: controllers.Application,
     // @LINE:8
     UserController_0: controllers.UserController,
-    // @LINE:16
+    // @LINE:13
+    ContactController_3: controllers.ContactController,
+    // @LINE:18
     Assets_1: controllers.Assets
-  ) = this(errorHandler, Application_2, UserController_0, Assets_1, "/")
+  ) = this(errorHandler, Application_2, UserController_0, ContactController_3, Assets_1, "/")
 
   import ReverseRouteContext.empty
 
   def withPrefix(prefix: String): Routes = {
     router.RoutesPrefix.setPrefix(prefix)
-    new Routes(errorHandler, Application_2, UserController_0, Assets_1, prefix)
+    new Routes(errorHandler, Application_2, UserController_0, ContactController_3, Assets_1, prefix)
   }
 
   private[this] val defaultPrefix: String = {
@@ -50,7 +54,8 @@ class Routes(
     ("""GET""", this.prefix, """controllers.Application.index()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """login""", """controllers.UserController.login()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """registration""", """controllers.UserController.registration()"""),
-    ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """registration/save""", """controllers.UserController.save()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """registration/save""", """controllers.UserController.save()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """contact""", """controllers.ContactController.index()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""", """controllers.Assets.at(path:String = "/public", file:String)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
@@ -111,7 +116,7 @@ class Routes(
   )
 
   // @LINE:11
-  private[this] lazy val controllers_UserController_save3_route = Route("POST",
+  private[this] lazy val controllers_UserController_save3_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("registration/save")))
   )
   private[this] lazy val controllers_UserController_save3_invoker = createInvoker(
@@ -121,17 +126,34 @@ class Routes(
       "controllers.UserController",
       "save",
       Nil,
-      "POST",
+      "GET",
       """""",
       this.prefix + """registration/save"""
     )
   )
 
-  // @LINE:16
-  private[this] lazy val controllers_Assets_at4_route = Route("GET",
+  // @LINE:13
+  private[this] lazy val controllers_ContactController_index4_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("contact")))
+  )
+  private[this] lazy val controllers_ContactController_index4_invoker = createInvoker(
+    ContactController_3.index(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.ContactController",
+      "index",
+      Nil,
+      "GET",
+      """contact""",
+      this.prefix + """contact"""
+    )
+  )
+
+  // @LINE:18
+  private[this] lazy val controllers_Assets_at5_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""",false)))
   )
-  private[this] lazy val controllers_Assets_at4_invoker = createInvoker(
+  private[this] lazy val controllers_Assets_at5_invoker = createInvoker(
     Assets_1.at(fakeValue[String], fakeValue[String]),
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -171,10 +193,16 @@ class Routes(
         controllers_UserController_save3_invoker.call(UserController_0.save())
       }
   
-    // @LINE:16
-    case controllers_Assets_at4_route(params) =>
+    // @LINE:13
+    case controllers_ContactController_index4_route(params) =>
+      call { 
+        controllers_ContactController_index4_invoker.call(ContactController_3.index())
+      }
+  
+    // @LINE:18
+    case controllers_Assets_at5_route(params) =>
       call(Param[String]("path", Right("/public")), params.fromPath[String]("file", None)) { (path, file) =>
-        controllers_Assets_at4_invoker.call(Assets_1.at(path, file))
+        controllers_Assets_at5_invoker.call(Assets_1.at(path, file))
       }
   }
 }

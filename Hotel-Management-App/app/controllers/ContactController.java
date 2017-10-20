@@ -12,6 +12,6 @@ public class ContactController extends Controller {
 
     public Result index() {
         return ok(contact.render());
-    }
+ }
 
 }

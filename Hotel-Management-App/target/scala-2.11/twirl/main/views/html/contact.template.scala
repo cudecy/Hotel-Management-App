@@ -31,217 +31,254 @@ class contact extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,For
 
 Seq[Any](format.raw/*1.4*/("""
 
-"""),format.raw/*3.1*/("""<!DOCTYPE html>
+"""),format.raw/*3.1*/("""<!doctype html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <script type="text/javascript" src=""""),_display_(/*7.46*/routes/*7.52*/.Assets.at("javascripts/jquery-1.9.0.min.js")),format.raw/*7.97*/("""">
-</script>
-        <script type="text/javascript" src=""""),_display_(/*9.46*/routes/*9.52*/.Assets.at("javascripts/jquery-ui.min.js")),format.raw/*9.94*/("""">
-</script>
-        <script type="text/javascript" src=""""),_display_(/*11.46*/routes/*11.52*/.Assets.at("javascripts/tt_slideshow.js")),format.raw/*11.93*/("""">
-</script>
-        <script type="text/javascript" src=""""),_display_(/*13.46*/routes/*13.52*/.Assets.at("javascripts/bootstrap.min.js")),format.raw/*13.94*/("""">
-</script>
-        <script type="text/javascript" src=""""),_display_(/*15.46*/routes/*15.52*/.Assets.at("javascripts/Customjs.js")),format.raw/*15.89*/("""">
-</script>
-        <script type="text/javascript" src=""""),_display_(/*17.46*/routes/*17.52*/.Assets.at("javascripts/contactform.js")),format.raw/*17.92*/("""">
-</script>
-        <script type="text/javascript" src=""""),_display_(/*19.46*/routes/*19.52*/.Assets.at("javascripts/angular/angular.min.js")),format.raw/*19.100*/("""">
-</script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Add the site description here" />
-        <meta  name="keywords" content="First keyword, second keyword," />
-        <title>
-Hotel Leisure
-        </title>
-        <link rel="stylesheet"  href=""""),_display_(/*27.40*/routes/*27.46*/.Assets.at("css/bootstrap.css")),format.raw/*27.77*/("""" type="text/css" media="screen"/>
-        <link rel="stylesheet"  href=""""),_display_(/*28.40*/routes/*28.46*/.Assets.at("css/style.css")),format.raw/*28.73*/("""" type="text/css" media="screen"/>
-        <link rel="stylesheet"  href=""""),_display_(/*29.40*/routes/*29.46*/.Assets.at("stylesheets/main.css")),format.raw/*29.80*/("""" type="text/css" media="screen"/>
-            <!--[if lte IE 8]>
-<link rel="stylesheet"  href="menuie.css" type="text/css" media="screen"/>
-<link rel="stylesheet"  href="vmenuie.css" type="text/css" media="screen"/>
-<![endif]-->
-        <script type="text/javascript" src=""""),_display_(/*34.46*/routes/*34.52*/.Assets.at("javascripts/totop.js")),format.raw/*34.86*/("""">
-</script>
-            <!--[if IE 7]>
-<style type="text/css" media="screen">
-#ttr_vmenu_items  li.ttr_vmenu_items_parent """),format.raw/*38.45*/("""{"""),format.raw/*38.46*/("""margin-left:-16px;font-size:0px;"""),format.raw/*38.78*/("""}"""),format.raw/*38.79*/("""
-"""),format.raw/*39.1*/("""</style>
-<![endif]-->
-            <!--[if lt IE 9]>
-<script type="text/javascript" src='"""),_display_(/*42.38*/routes/*42.44*/.Assets.at("javascripts/html5shiv.js")),format.raw/*42.82*/("""'>
-        </script>
-<script type="text/javascript" src='"""),_display_(/*44.38*/routes/*44.44*/.Assets.at("javascripts/respond.min.js")),format.raw/*44.84*/("""'>
-        </script>
-        <![endif]-->
+        <meta charset="UTF-8">
+        <title>Garage Template - Contact Page</title>
+        <meta name="description" content="">
+            <!--
+
+Template 2079 Garage
+
+http://www.tooplate.com/view/2079-garage
+
+-->
+        <meta name="author" content="Web Domus Italia">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href=""""),_display_(/*19.55*/routes/*19.61*/.Assets.at("css/bootstrap.css/bootstrap.mim.css")),format.raw/*19.110*/("""">
+        <link rel="stylesheet" type="text/css" href=""""),_display_(/*20.55*/routes/*20.61*/.Assets.at("source/font-awesome-4.5.0/css/font-awesome.css")),format.raw/*20.121*/("""">
+        <link rel="stylesheet" type="text/css" href=""""),_display_(/*21.55*/routes/*21.61*/.Assets.at("css/slider.css")),format.raw/*21.89*/("""">
+        <link rel="stylesheet" type="text/css" href=""""),_display_(/*22.55*/routes/*22.61*/.Assets.at("css/mystyle.css")),format.raw/*22.90*/("""">
+        <link rel="stylesheet" type="text/css" href=""""),_display_(/*23.55*/routes/*23.61*/.Assets.at("css/contactstyle.css")),format.raw/*23.95*/("""">
     </head>
-    <body class="Contact">
-        <div class="totopshow">
-            <a href="#" class="back-to-top"><img alt="Back to Top" src='"""),_display_(/*50.74*/routes/*50.80*/.Assets.at("images/gototop0.png")),format.raw/*50.113*/("""'/></a>
-        </div>
-        <div id="ttr_page" class="container">
-            <header id="ttr_header">
-                <div id="ttr_header_inner">
-                    <a href="http://www.templatetoaster.com" target="_self">
-                        <img  class="ttr_header_logo" src='"""),_display_(/*56.61*/routes/*56.67*/.Assets.at("images/logo.png")),format.raw/*56.96*/("""' >
-                    </a>
-                    <p style="margin-left: 1000px; padding-top: 20px">
-                        <span style="color: #ffffff; font-family:'Roboto','Roboto'; margin-right: 15px; font-size: 12px">Already a VIP member?</span>
-                        <a class="btn btn-default" href="/login"><span style="color: #ffffff">Login</span></a>
-                        <a class="btn btn-default" href="/registration"><span style="color: #ffffff">Register</span></a>
-                    </p>
+    <body>
+            <!-- Header -->
+        <div class="allcontain">
+            <div class="header">
+                <ul class="socialicon">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                </ul>
+                <ul class="givusacall">
+                    <li>Give us a call : +66666666 </li>
+                </ul>
+                <ul class="logreg">
+                    <li><a href="#">Login </a> </li>
+                    <li><a href="#"><span class="register">Register</span></a></li>
+                </ul>
+            </div>
+                <!-- Navbar Up -->
+            <nav class="topnavbar navbar-default topnav">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed toggle-costume" data-toggle="collapse" data-target="#upmenu" aria-expanded="false">
+                            <span class="sr-only"> Toggle navigaion</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand logo" href="#"><img src=""""),_display_(/*53.74*/routes/*53.80*/.Assets.at("images/logo1.png")),format.raw/*53.110*/("""" alt="logo"></a>
+                    </div>
                 </div>
-            </header>
-            <nav id="ttr_menu" class="navbar-default navbar">
-                <div id="ttr_menu_inner_in">
-                    <div class="menuforeground">
-                    </div>
-                    <div id="navigationmenu">
-                        <div class="navbar-header">
-                            <button id="nav-expander" data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
-                                <span class="sr-only">
-                                </span>
-                                <span class="icon-bar">
-                                </span>
-                                <span class="icon-bar">
-                                </span>
-                                <span class="icon-bar">
-                                </span>
-                            </button>
-                        </div>
-                        <div class="menu-center collapse navbar-collapse">
-                            <ul class="ttr_menu_items nav navbar-nav nav-center">
-                                <li class="ttr_menu_items_parent dropdown active"><a href="/" class="ttr_menu_items_parent_link"><span class="menuchildicon"></span>Home</a>
-                                    <hr class ="horiz_separator"/>
-                                </li>
-                                <li class="ttr_menu_items_parent dropdown"><a href="/about" class="ttr_menu_items_parent_link"><span class="menuchildicon"></span>About</a>
-                                    <hr class ="horiz_separator"/>
-                                </li>
-                                <li class="ttr_menu_items_parent dropdown"><a href="/rooms" class="ttr_menu_items_parent_link"><span class="menuchildicon"></span>Rooms</a>
-                                    <hr class ="horiz_separator"/>
-                                </li>
-                                <li class="ttr_menu_items_parent dropdown"><a href="/services" class="ttr_menu_items_parent_link"><span class="menuchildicon"></span>Services</a>
-                                    <hr class ="horiz_separator"/>
-                                </li>
-                                <li class="ttr_menu_items_parent dropdown"><a href="/contact" class="ttr_menu_items_parent_link_active"><span class="menuchildicon"></span>Contact</a>
-                                    <hr class ="horiz_separator"/>
-                                </li>
+                <div class="collapse navbar-collapse" id="upmenu">
+                    <ul class="nav navbar-nav" id="navbarontop">
+                        <li class="active"><a href="index.html">HOME</a> </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle"	data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CATEGORIES <span class="caret"></span></a>
+                            <ul class="dropdown-menu dropdowncostume">
+                                <li><a href="#">Sport</a></li>
+                                <li><a href="#">Old</a></li>
+                                <li><a href="#">New</a></li>
                             </ul>
-                        </div>
-                    </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DEALERS <span class="caret"></span></a>
+                            <ul class="dropdown-menu dropdowncostume">
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="3">3</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACT </a>
+                        </li>
+                        <button><span class="postnewcar">POST NEW CAR</span></button>
+                    </ul>
                 </div>
             </nav>
-            <div id="ttr_content_and_sidebar_container">
-                <div id="ttr_content">
-                    <div id="ttr_content_margin"class="container-fluid">
-                        <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                        <div class="ttr_Contact_html_row0 row">
-                            <div class="post_column col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <div class="ttr_Contact_html_column00">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="text-align:Center;line-height:2.11267605633803;"><span style="font-family:'Droid Serif','Droid Serif';font-style:italic;font-size:2.286em;color:rgba(142,91,34,1);text-decoration:underline">CONTACT INFO</span></p><p style="margin:1.43em 0.36em 0.36em 0.36em;text-align:Center;line-height:1.76056338028169;"><span style="font-family:'Roboto';">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span></p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-lg-block visible-sm-block visible-md-block visible-xs-block">
-                            </div>
-                            <div class="post_column col-lg-6 col-md-5 col-sm-5 col-xs-12">
-                                <div class="ttr_Contact_html_column01">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="line-height:1.97183098591549;"><span style="font-family:'Droid Serif','Droid Serif';font-size:1.571em;">ADDRESS</span></p><p style="margin:1.43em 0em 0em 0em;line-height:1.76056338028169;"><span style="font-family:'Roboto';">173A Nguyen Van Troi,</span></p><p style="margin:0.36em 0em 0em 0em;line-height:1.76056338028169;"><span style="font-family:'Roboto';">Ho Chi Minh City, USA</span></p><p style="margin:1.43em 0em 0em 0em;line-height:1.97183098591549;"><span style="font-family:'Droid Serif','Droid Serif';font-size:1.571em;">CONTACT NUMBER</span></p><p style="margin:1.43em 0em 0em 0em;line-height:1.76056338028169;"><span style="font-family:'Roboto';">PHONE :- +44 (0) 1334 896578</span></p><p style="margin:0em 0em 0em 0em;line-height:1.76056338028169;"><span style="font-family:'Roboto';">MOBILE :- +44 (0) 1334 869548</span></p><p><br style="font-family:'Droid Serif';font-size:1.571em;" /></p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-xs-block">
-                            </div>
-                            <div class="post_column col-lg-6 col-md-7 col-sm-7 col-xs-12">
-                                <div class="ttr_Contact_html_column02">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="line-height:1.97183098591549;"><span style="font-family:'Droid Serif','Droid Serif','Droid Serif';font-size:1.571em;">FEEDBACK</span></p><p style="margin:1.43em 0.36em 0.36em 0.36em;"><form id="ContactForm0" class="form-horizontal" role="form" method="post" action="" style="padding:0px 0px 0px 0px;float:left;"><div class="form-group"><label class="col-sm-4 control-label">Name</label><div class="col-sm-8"><input type="text" class="form-control" data-vali="novalidation" /></div></div><div class="form-group"><label class="col-sm-4 control-label required">Email</label><div class="col-sm-8"><input type="text" class="form-control required" data-vali="email" /></div></div><div class="form-group"><label class="col-sm-4 control-label">Message</label><div class="col-sm-8"><textarea class="form-control comment" name="message" rows="4"></textarea></div></div><div class="form-group"><div class="col-sm-4 col-sm-offset-8"><input type="submit" class="pull-right btn btn-md btn-default" rows="4" id="submit" name="submit" value="Send Message" /></div></div><div class="clearfix"></div><div class="success"></div><div class="req_field"></div><div class="clearfix"></div></form></p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-lg-block visible-sm-block visible-md-block visible-xs-block">
-                            </div>
-                        </div>
-                        <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                    </div>
-                </div>
-                <div style="clear:both">
-                </div>
-            </div>
-            <div style="height:0px;width:0px;overflow:hidden;"></div>
-            <footer id="ttr_footer">
-                <div class="ttr_footerContact_html_row0 row">
-                    <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="ttr_footerContact_html_column00">
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                            <div class="html_content"><p style="margin:0.36em 0.36em 0.36em 1.79em;"><br style="font-family:'Arial';" /></p><p style="margin:0em 0em 0em 3.57em;"><span style="font-family:'Droid Serif','Times New Roman';font-size:1.429em;color:rgba(255,255,255,1);">QUICK LINKS</span></p><p style="margin:1.43em 0em 0em 4.29em;"><a HREF="About.html" class="tt_link" target="_self"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">ABOUT</span></a></p><p style="margin:0.71em 0em 0em 4.29em;"><a HREF="Services.html" class="tt_link" target="_self"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">SERVICES</span></a></p><p style="margin:0.71em 0em 0em 4.29em;"><a HREF="Events.html" class="tt_link" target="_self"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">EVENTS</span></a></p><p style="margin:0.71em 0em 0em 4.29em;"><a HREF="Blog.html" class="tt_link" target="_self"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">BLOG</span></a></p><p style="margin:0.71em 0em 0em 2.86em;"><br style="font-family:'Arial';" /></p></div>
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                        </div>
-                    </div>
-                    <div class="clearfix visible-xs-block">
-                    </div>
-                    <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="ttr_footerContact_html_column01">
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                            <div class="html_content"><p style="margin:0.36em 0.36em 0.36em 1.79em;">&nbsp;</p><p style="margin:0em 0em 0em 3.57em;"><span style="font-family:'Droid Serif','Times New Roman';font-size:1.429em;color:rgba(255,255,255,1);">ROOMS</span></p><p style="margin:1.43em 0em 0em 4.29em;"><a HREF="Rooms.html" class="tt_link" target="_self"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">STANDARD ROOMS</span></a></p><p style="margin:0.71em 0em 0em 4.29em;"><a HREF="Rooms.html" class="tt_link" target="_self"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">SUITE ROOMS</span></a></p><p style="margin:0.71em 0em 0em 4.29em;"><a HREF="Rooms.html" class="tt_link" target="_self"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">DELUXE ROOMS</span></a></p><p style="margin:0.71em 0em 0em 4.29em;"><a HREF="Rooms.html" class="tt_link" target="_self"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">EXCUTIVE ROOMS</span></a></p><p style="margin:0.71em 0em 0em 2.86em;">&nbsp;</p></div>
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                        </div>
-                    </div>
-                    <div class="clearfix visible-sm-block visible-md-block visible-xs-block">
-                    </div>
-                    <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="ttr_footerContact_html_column02">
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                            <div class="html_content"><p style="margin:0.36em 0.36em 0.36em 1.79em;">&nbsp;</p><p style="margin:0em 0em 0em 3.57em;"><span style="font-family:'Droid Serif','Times New Roman';font-size:1.429em;color:rgba(255,255,255,1);">CONTACT US</span></p><p style="margin:1.43em 0em 0em 4.29em;"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">173A Nguyen Van Troi,</span></p><p style="margin:0.36em 0em 0em 4.29em;"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">Ho Chi Minh City, USA</span></p><p style="margin:1.43em 0em 0em 4.29em;"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">PHONE :-&nbsp;&nbsp;+44 (0) 1334 896578</span></p><p style="margin:0.36em 0em 0em 4.29em;"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">MOBILE :-&nbsp;&nbsp;+44 (0) 1334 869548</span></p><p style="margin:0.36em 0em 0em 2.86em;"><br style="font-family:'Roboto';color:rgba(255,255,255,1);" /></p></div>
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                        </div>
-                    </div>
-                    <div class="clearfix visible-xs-block">
-                    </div>
-                    <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="ttr_footerContact_html_column03">
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                            <div class="html_content"><p style="margin:0.36em 0.36em 0.36em 3.21em;">&nbsp;</p><p style="margin:0em 0em 0em 2.86em;"><span style="font-family:'Droid Serif';font-size:1.429em;color:rgba(255,255,255,1);">&nbsp;&nbsp;</span><span style="font-family:'Droid Serif','Times New Roman';font-size:1.429em;color:rgba(255,255,255,1);">FOLLOW US</span></p><p style="margin:1.43em 0em 0em 4.29em;"><span class="ttr_image" style="float:Left;overflow:hidden;margin:0.36em 0.36em 0.36em 0.36em;"><span><img src='"""),_display_(/*179.530*/routes/*179.536*/.Assets.at("images/76.png")),format.raw/*179.563*/("""' class="ttr_fill" style="max-width:32px;max-height:32px;" /></span></span><span class="ttr_image" style="float:Left;overflow:hidden;margin:0.36em 0.36em 0.36em 0.36em;"><span><img src='"""),_display_(/*179.750*/routes/*179.756*/.Assets.at("images/77.png")),format.raw/*179.783*/("""' class="ttr_fill" style="max-width:32px;max-height:32px;" /></span></span><span class="ttr_image" style="float:Left;overflow:hidden;margin:0.36em 0.36em 0.36em 0.36em;"><span><img src='"""),_display_(/*179.970*/routes/*179.976*/.Assets.at("images/78.png")),format.raw/*179.1003*/("""' class="ttr_fill" style="max-width:32px;max-height:32px;" /></span></span><span class="ttr_image" style="float:Left;overflow:hidden;margin:0.36em 0.36em 0.36em 0.36em;"><span><img src='"""),_display_(/*179.1190*/routes/*179.1196*/.Assets.at("images/79.png")),format.raw/*179.1223*/("""' class="ttr_fill" style="max-width:32px;max-height:32px;" /></span></span></p></div>
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                        </div>
-                    </div>
-                    <div class="clearfix visible-lg-block visible-sm-block visible-md-block visible-xs-block">
-                    </div>
-                </div>
-                <div class="ttr_footer_bottom_footer">
-                    <div class="ttr_footer_bottom_footer_inner">
-                        <div id="ttr_copyright">
-                            <a href="#">
-                                Copyright © 2014. All rights reserved.
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-bottom-collapse: separate;"></div>
         </div>
-        <script type="text/javascript">
-                WebFontConfig = """),format.raw/*199.33*/("""{"""),format.raw/*199.34*/("""
-                    """),format.raw/*200.21*/("""google: """),format.raw/*200.29*/("""{"""),format.raw/*200.30*/(""" """),format.raw/*200.31*/("""families: [ 'Droid+Serif'] """),format.raw/*200.58*/("""}"""),format.raw/*200.59*/("""
-                """),format.raw/*201.17*/("""}"""),format.raw/*201.18*/(""";
-                (function() """),format.raw/*202.29*/("""{"""),format.raw/*202.30*/("""
-                    """),format.raw/*203.21*/("""var wf = document.createElement('script');
-                    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1.0.31/webfont.js';
-                    wf.type = 'text/javascript';
-                    wf.async = 'true';
-                    var s = document.getElementsByTagName('script')[0];
-                    s.parentNode.insertBefore(wf, s);
-                """),format.raw/*209.17*/("""}"""),format.raw/*209.18*/(""")();
+            <!--_______________________________________ Carousel__________________________________ -->
+        <div class="allcontain">
+            <div id="carousel-up" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner " role="listbox">
+                    <div class="item active">
+                        <img src=""""),_display_(/*88.36*/routes/*88.42*/.Assets.at("images/oldcar.jpg")),format.raw/*88.73*/("""" alt="oldcar">
+                        <div class="carousel-caption">
+                            <h2>Porsche 356</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur ,<br>
+                                sed do eiusmod tempor incididunt ut labore </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="""),_display_(/*96.35*/routes/*96.41*/.Assets.at("images/porche.jpg")),format.raw/*96.72*/("""" alt="porche">
+                        <div class="carousel-caption">
+                            <h2>Porche</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur ,<br>
+                                sed do eiusmod tempor incididunt ut labore </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src=""""),_display_(/*104.36*/routes/*104.42*/.Assets.at("images/benz.jpg")),format.raw/*104.71*/("""" alt="benz">
+                        <div class="carousel-caption">
+                            <h2>Car</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur ,<br>
+                                sed do eiusmod tempor incididunt ut labore </p>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-default midle-nav">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed textcostume" data-toggle="collapse" data-target="#navbarmidle" aria-expanded="false">
+                            <h1>SEARCH TEXT</h1>
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarmidle">
+                        <div class="searchtxt">
+                            <h1>SEARCH TEXT</h1>
+                        </div>
+                        <form class="navbar-form navbar-left searchformmargin" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control searchform" placeholder="Enter Keyword">
+                            </div>
+                        </form>
+                        <ul class="nav navbar-nav navbarborder">
+                            <li class="li-category">
+                                <a class="btn  dropdown-toggle btn-costume"  id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Category<span class="glyphicon glyphicon-chevron-down downicon"></span></a>
+                                <ul class="dropdown-menu" id="mydd">
+                                    <li><a href="#">Epic</a></li>
+                                    <li><a href="#">Old</a></li>
+                                    <li><a href="#">New</a></li>
+                                </ul>
+                            </li>
+                            <li class="li-minyear"><a class="btn  dropdown-toggle btn-costume"  id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Min Year <span class="glyphicon glyphicon-chevron-down downicon"></span></a>
+                                <ul class="dropdown-menu" id="mydd2">
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                </ul>
+                            </li>
+                            <li class="li-maxyear"><a class="btn dropdown-toggle btn-costume"  id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Max Year <span class="glyphicon glyphicon-chevron-down downicon"></span></a>
+                                <ul class="dropdown-menu" id="mydd3">
+                                    <li><a href="#">1900</a></li>
+                                    <li><a href="#">2000</a></li>
+                                    <li><a href="#">2016</a></li>
+                                </ul>
+                            </li>
+                            <li class="li-slideprice">
+                                <p> <label class="slidertxt" for="amount">Price </label>
+                                    <input class="priceslider" type="text" id="amount" readonly="readonly">
+                                </p>
+                                <div id="slider-range"></div>
+
+                            </li>
+                            <li class="li-search"> <button class="searchbutton"><span class="glyphicon glyphicon-search "></span></button></li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="allcontain">
+            <div class="contact">
+                <div class="newslettercontent">
+                    <div class="leftside">
+                        <img id="image_border" src=""""),_display_(/*172.54*/routes/*172.60*/.Assets.at("images/border.png")),format.raw/*172.91*/("""" alt="border">
+                        <div class="contact-form">
+                            <h1>Contact Us</h1>
+                            <div class="form-group group-coustume">
+                                <input type="text" class="form-control name-form" placeholder="Name">
+                                <input type="text" class="form-control email-form" placeholder="E-mail">
+                                <input type="text" class="form-control subject-form" placeholder="Subject">
+                                <textarea rows="4" cols="50" class="message-form"></textarea>
+                                <button type="submit" class="btn btn-default btn-submit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="google-maps">
+                        <div id="googleMap"></div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer">
+            <div class="copyright">
+                    &copy; Copy right 2016 | <a href="#">Privacy </a>| <a href="#">Policy</a>
+            </div>
+            <div class="atisda">
+                Designed by <a href="http://www.webdomus.net/">Web Domus Italia - Web Agency </a>
+            </div>
+        </div>
+
+
+
+        <script src="http://maps.googleapis.com/maps/api/js"></script>
+        <script>
+
+                var myCenter=new google.maps.LatLng(41.567197,14.681526);
+
+                function initialize()
+                """),format.raw/*209.17*/("""{"""),format.raw/*209.18*/("""
+                    """),format.raw/*210.21*/("""var mapProp = """),format.raw/*210.35*/("""{"""),format.raw/*210.36*/("""
+                        """),format.raw/*211.25*/("""center:myCenter,
+                        zoom:16,
+                        mapTypeId:google.maps.MapTypeId.ROADMAP
+                    """),format.raw/*214.21*/("""}"""),format.raw/*214.22*/(""";
+
+                    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+                    var marker=new google.maps.Marker("""),format.raw/*218.55*/("""{"""),format.raw/*218.56*/("""
+                        """),format.raw/*219.25*/("""position:myCenter,
+                    """),format.raw/*220.21*/("""}"""),format.raw/*220.22*/(""");
+
+                    marker.setMap(map);
+                """),format.raw/*223.17*/("""}"""),format.raw/*223.18*/("""
+
+
+
+        """),format.raw/*227.9*/("""</script>
+
+        <script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/jquery.js"></script>
+        <script type="text/javascript" src="source/js/myscript.js"></script> <script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+
+        <script>
+                $(window).resize(function()"""),format.raw/*233.44*/("""{"""),format.raw/*233.45*/("""
+                    """),format.raw/*234.21*/("""var new_height = $("#image_border").height();
+                    console.log(new_height);
+                    $("#googleMap").height(new_height);
+                """),format.raw/*237.17*/("""}"""),format.raw/*237.18*/(""");
+
+                $(window).load(function()"""),format.raw/*239.42*/("""{"""),format.raw/*239.43*/("""
+                    """),format.raw/*240.21*/("""var new_height = $("#image_border").height();
+                    console.log(new_height);
+                    $("#googleMap").height(new_height);
+                    google.maps.event.addDomListener(window, 'load', initialize());
+                """),format.raw/*244.17*/("""}"""),format.raw/*244.18*/(""");
+
         </script>
+        <script type="text/javascript" src="source/js/myscript.js"></script>
+        <script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/jquery.1.11.js"></script>
     </body>
-</html>
-"""))
+</html>"""))
       }
     }
   }
@@ -261,11 +298,11 @@ Hotel Leisure
 object contact extends contact_Scope0.contact
               /*
                   -- GENERATED --
-                  DATE: Thu Oct 12 11:41:20 PDT 2017
+                  DATE: Thu Oct 19 22:19:36 AEDT 2017
                   SOURCE: C:/Users/mistu/Downloads/htmgmtsys/Hotel-Management-App/Hotel-Management-App/app/views/contact.scala.html
-                  HASH: bdf4e773b0675c5605a7f78eca380d765ebfefb7
-                  MATRIX: 742->1|838->3|868->7|1008->121|1022->127|1087->172|1173->232|1187->238|1249->280|1336->340|1351->346|1413->387|1500->447|1515->453|1578->495|1665->555|1680->561|1738->598|1825->658|1840->664|1901->704|1988->764|2003->770|2073->818|2435->1153|2450->1159|2502->1190|2604->1265|2619->1271|2667->1298|2769->1373|2784->1379|2839->1413|3146->1693|3161->1699|3216->1733|3371->1860|3400->1861|3460->1893|3489->1894|3518->1896|3637->1988|3652->1994|3711->2032|3798->2092|3813->2098|3874->2138|4093->2330|4108->2336|4163->2369|4483->2662|4498->2668|4548->2697|19550->17670|19567->17676|19617->17703|19833->17890|19850->17896|19900->17923|20116->18110|20133->18116|20184->18143|20401->18330|20419->18336|20470->18363|21563->19427|21593->19428|21644->19450|21681->19458|21711->19459|21741->19460|21797->19487|21827->19488|21874->19506|21904->19507|21964->19538|21994->19539|22045->19561|22506->19993|22536->19994
-                  LINES: 27->1|32->1|34->3|38->7|38->7|38->7|40->9|40->9|40->9|42->11|42->11|42->11|44->13|44->13|44->13|46->15|46->15|46->15|48->17|48->17|48->17|50->19|50->19|50->19|58->27|58->27|58->27|59->28|59->28|59->28|60->29|60->29|60->29|65->34|65->34|65->34|69->38|69->38|69->38|69->38|70->39|73->42|73->42|73->42|75->44|75->44|75->44|81->50|81->50|81->50|87->56|87->56|87->56|210->179|210->179|210->179|210->179|210->179|210->179|210->179|210->179|210->179|210->179|210->179|210->179|230->199|230->199|231->200|231->200|231->200|231->200|231->200|231->200|232->201|232->201|233->202|233->202|234->203|240->209|240->209
+                  HASH: c6314487002b0f91bb63b08e49fd2234d357ada1
+                  MATRIX: 742->1|838->3|868->7|1421->533|1436->539|1507->588|1592->646|1607->652|1689->712|1774->770|1789->776|1838->804|1923->862|1938->868|1988->897|2073->955|2088->961|2143->995|3723->2548|3738->2554|3790->2584|5985->4752|6000->4758|6052->4789|6495->5205|6510->5211|6562->5242|7002->5654|7018->5660|7069->5689|11410->10002|11426->10008|11479->10039|13082->11613|13112->11614|13163->11636|13206->11650|13236->11651|13291->11677|13457->11814|13487->11815|13673->11972|13703->11973|13758->11999|13827->12039|13857->12040|13949->12103|13979->12104|14023->12120|14394->12462|14424->12463|14475->12485|14670->12651|14700->12652|14776->12699|14806->12700|14857->12722|15137->12973|15167->12974
+                  LINES: 27->1|32->1|34->3|50->19|50->19|50->19|51->20|51->20|51->20|52->21|52->21|52->21|53->22|53->22|53->22|54->23|54->23|54->23|84->53|84->53|84->53|119->88|119->88|119->88|127->96|127->96|127->96|135->104|135->104|135->104|203->172|203->172|203->172|240->209|240->209|241->210|241->210|241->210|242->211|245->214|245->214|249->218|249->218|250->219|251->220|251->220|254->223|254->223|258->227|264->233|264->233|265->234|268->237|268->237|270->239|270->239|271->240|275->244|275->244
                   -- GENERATED --
               */
           

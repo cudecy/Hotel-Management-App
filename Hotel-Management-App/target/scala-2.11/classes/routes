@@ -8,7 +8,9 @@ GET         /                               controllers.Application.index()
 GET         /login                          controllers.UserController.login()
 #Registration
 GET         /registration                   controllers.UserController.registration()
-POST        /registration/save                            controllers.UserController.save()
+GET        /registration/save                            controllers.UserController.save()
+#contact
+GET        /contact                          controllers.ContactController.index()
 
 
 

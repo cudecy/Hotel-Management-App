@@ -19,9 +19,9 @@ public class UserController extends Controller{
         return ok(login.render());
     }
 
-    public Result registration(){
-        Form <AppUserForm> appUserForm = Form.form(AppUserForm.class);
-        return ok(registration.render(appUserForm));
+ public Result registration(){
+    Form <AppUserForm> appUserForm = Form.form(AppUserForm.class);
+      return ok(registration.render());
     }
 
     public Result save(){
@@ -30,7 +30,7 @@ public class UserController extends Controller{
 
         if(appUserForm.hasErrors()){
             flash("danger", "Invalid form selection");
-            return badRequest(registration.render(appUserForm));
+//            return badRequest(registration.render(appUserForm));
         }
 
         AppUserForm data = appUserForm.get();
@@ -47,6 +47,6 @@ public class UserController extends Controller{
         System.out.println("gender is: "+appUser.gender);
         System.out.println("mobile number is: "+appUser.mobileNumber);
         System.out.println("date is: "+appUser.date);
-        return ok();
+        return ok("Mistura ti se oh!!");
     }
 }

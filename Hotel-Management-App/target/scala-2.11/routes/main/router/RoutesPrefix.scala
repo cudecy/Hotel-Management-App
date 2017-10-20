@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/mistu/Downloads/htmgmtsys/Hotel-Management-App/Hotel-Management-App/conf/routes
-// @DATE:Thu Oct 12 18:31:05 PDT 2017
+// @DATE:Thu Oct 19 21:06:45 AEDT 2017
 
 
 package router {

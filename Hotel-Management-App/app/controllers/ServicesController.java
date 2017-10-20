@@ -9,8 +9,8 @@ import views.html.*;
  */
 public class ServicesController extends Controller {
 
-    public Result index() {
-        return ok(services.render());
-    }
+//    public Result index() {
+//        return ok(services.render());
+//    }
 
 }

@@ -55,7 +55,7 @@ Seq[Any](format.raw/*1.34*/("""
 object bootstrap3Input extends bootstrap3Input_Scope0.bootstrap3Input
               /*
                   -- GENERATED --
-                  DATE: Thu Oct 12 11:41:19 PDT 2017
+                  DATE: Thu Oct 19 05:13:37 AEDT 2017
                   SOURCE: C:/Users/mistu/Downloads/htmgmtsys/Hotel-Management-App/Hotel-Management-App/app/views/bootstrap3Input.scala.html
                   HASH: 04a28327d187a5921b8ceccd7bb9988a95d867f6
                   MATRIX: 779->1|906->33|934->36|978->72|1017->74|1049->80|1085->90|1101->98|1124->101|1153->104|1169->112|1195->118|1232->126|1260->129|1276->137|1302->143|1331->206|1359->208|1412->235|1428->243|1470->265

@@ -33,399 +33,528 @@ import helper._;
 Seq[Any](format.raw/*1.32*/("""
 
 """),format.raw/*5.1*/("""
-"""),format.raw/*6.1*/("""<!DOCTYPE html>
+"""),format.raw/*6.1*/("""<!doctype html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <script type="text/javascript" src=""""),_display_(/*10.46*/routes/*10.52*/.Assets.at("javascripts/jquery-1.9.0.min.js")),format.raw/*10.97*/("""">
-</script>
-        <script type="text/javascript" src=""""),_display_(/*12.46*/routes/*12.52*/.Assets.at("javascripts/jquery-ui.min.js")),format.raw/*12.94*/("""">
-</script>
-        <script type="text/javascript" src=""""),_display_(/*14.46*/routes/*14.52*/.Assets.at("javascripts/tt_slideshow.js")),format.raw/*14.93*/("""">
-</script>
-        <script type="text/javascript" src=""""),_display_(/*16.46*/routes/*16.52*/.Assets.at("javascripts/bootstrap.min.js")),format.raw/*16.94*/("""">
-</script>
-        <script type="text/javascript" src=""""),_display_(/*18.46*/routes/*18.52*/.Assets.at("javascripts/Customjs.js")),format.raw/*18.89*/("""">
-</script>
-        <script type="text/javascript" src=""""),_display_(/*20.46*/routes/*20.52*/.Assets.at("javascripts/contactform.js")),format.raw/*20.92*/("""">
-</script>
-        <script type="text/javascript" src=""""),_display_(/*22.46*/routes/*22.52*/.Assets.at("javascripts/angular/angular.min.js")),format.raw/*22.100*/("""">
-</script>
-        <script type="text/javascript" src=""""),_display_(/*24.46*/routes/*24.52*/.Assets.at("javascripts/customJs/app.js")),format.raw/*24.93*/("""">
-</script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Add the site description here" />
-        <meta  name="keywords" content="First keyword, second keyword," />
-        <title>
-Hotel Leisure
-        </title>
-        <link rel="stylesheet"  href=""""),_display_(/*32.40*/routes/*32.46*/.Assets.at("css/bootstrap.css")),format.raw/*32.77*/("""" type="text/css" media="screen"/>
-        <link rel="stylesheet"  href=""""),_display_(/*33.40*/routes/*33.46*/.Assets.at("css/style.css")),format.raw/*33.73*/("""" type="text/css" media="screen"/>
-            <!--[if lte IE 8]>
-<link rel="stylesheet"  href="menuie.css" type="text/css" media="screen"/>
-<link rel="stylesheet"  href="vmenuie.css" type="text/css" media="screen"/>
-<![endif]-->
-        <script type="text/javascript" src=""""),_display_(/*38.46*/routes/*38.52*/.Assets.at("javascripts/totop.js")),format.raw/*38.86*/("""">
-</script>
-            <!--[if IE 7]>
-<style type="text/css" media="screen">
-#ttr_vmenu_items  li.ttr_vmenu_items_parent """),format.raw/*42.45*/("""{"""),format.raw/*42.46*/("""margin-left:-16px;font-size:0px;"""),format.raw/*42.78*/("""}"""),format.raw/*42.79*/("""
-"""),format.raw/*43.1*/("""</style>
-<![endif]-->
-            <!--[if lt IE 9]>
-<script type="text/javascript" src='"""),_display_(/*46.38*/routes/*46.44*/.Assets.at("javascripts/html5shiv.js")),format.raw/*46.82*/("""'>
-</script>
-<script type="text/javascript" src='"""),_display_(/*48.38*/routes/*48.44*/.Assets.at("javascripts/respond.min.js")),format.raw/*48.84*/("""'>
-</script>
-<![endif]-->
+        <meta charset="UTF-8">
+        <title>Garage Bootstrap Template</title>
+        <meta name="description" content="">
+            <!--
+
+Template 2079 Garage
+
+http://www.tooplate.com/view/2079-garage
+
+-->
+        <meta name="author" content="Web Domus Italia">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href=""""),_display_(/*22.55*/routes/*22.61*/.Assets.at("css/bootstrap.min.css")),format.raw/*22.96*/("""">
+        <link rel="stylesheet" type="text/css" href=""""),_display_(/*23.55*/routes/*23.61*/.Assets.at("Fonts/font-awesome-4.5.0/css/font-awesome.min.css")),format.raw/*23.124*/("""">
+        <link rel="stylesheet" type="text/css" href=""""),_display_(/*24.55*/routes/*24.61*/.Assets.at("css/slider.css")),format.raw/*24.89*/("""">
+        <link rel="stylesheet" type="text/css" href=""""),_display_(/*25.55*/routes/*25.61*/.Assets.at("css/mystyle.css")),format.raw/*25.90*/("""">
     </head>
-    <body class="Home">
-        <div class="totopshow">
-            <a href="#" class="back-to-top"><img alt="Back to Top" src=""""),_display_(/*54.74*/routes/*54.80*/.Assets.at("images/gototop0.png")),format.raw/*54.113*/(""""/></a>
-        </div>
-        <div id="ttr_page" class="container">
-            <header id="ttr_header">
-                <div id="ttr_header_inner">
-                    <a href="http://www.templatetoaster.com" target="_self">
-                        <img  class="ttr_header_logo" src=""""),_display_(/*60.61*/routes/*60.67*/.Assets.at("images/logo.png")),format.raw/*60.96*/("""" >
-                    </a>
-                    <p style="margin-left: 1000px; padding-top: 20px">
-                        <span style="color: #ffffff; font-family:'Roboto','Roboto'; margin-right: 15px; font-size: 12px">Already a VIP member?</span>
-                        <a class="btn btn-default" href="/login"><span style="color: #ffffff">Login</span></a>
-                        <a class="btn btn-default" href="/registration"><span style="color: #ffffff">Register</span></a>
-                    </p>
-                </div>
-            </header>
-            <nav id="ttr_menu" class="navbar-default navbar">
-                <div id="ttr_menu_inner_in">
-                    <div class="menuforeground">
-</div>
-                    <div id="navigationmenu">
-                        <div class="navbar-header">
-                            <button id="nav-expander" data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
-                                <span class="sr-only">
-</span>
-                                <span class="icon-bar">
-</span>
-                                <span class="icon-bar">
-</span>
-                                <span class="icon-bar">
-</span>
-                            </button>
-                        </div>
-                        <div class="menu-center collapse navbar-collapse">
-                            <ul class="ttr_menu_items nav navbar-nav nav-center">
-                                <li class="ttr_menu_items_parent dropdown active"><a href="/" class="ttr_menu_items_parent_link_active"><span class="menuchildicon"></span>Home</a>
-                                    <hr class ="horiz_separator"/>
-                                </li>
-                                <li class="ttr_menu_items_parent dropdown"><a href="/about" class="ttr_menu_items_parent_link"><span class="menuchildicon"></span>About</a>
-                                    <hr class ="horiz_separator"/>
-                                </li>
-                                <li class="ttr_menu_items_parent dropdown"><a href="/rooms" class="ttr_menu_items_parent_link"><span class="menuchildicon"></span>Rooms</a>
-                                    <hr class ="horiz_separator"/>
-                                </li>
-                                <li class="ttr_menu_items_parent dropdown"><a href="/services" class="ttr_menu_items_parent_link"><span class="menuchildicon"></span>Services</a>
-                                    <hr class ="horiz_separator"/>
-                                </li>
-                                <li class="ttr_menu_items_parent dropdown"><a href="/contact" class="ttr_menu_items_parent_link"><span class="menuchildicon"></span>Contact</a>
-                                    <hr class ="horiz_separator"/>
-                                </li>
-                            </ul>
-                        </div>
+    <body>
+            <!-- Header -->
+        <div class="allcontain">
+            <div class="header">
+                <ul class="socialicon">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                </ul>
+                <ul class="givusacall">
+                    <li>Give us a call : +66666666 </li>
+                </ul>
+                <ul class="logreg">
+                    <li><a href="#">Login </a> </li>
+                    <li><a href="#"><span class="register">Register</span></a></li>
+                </ul>
+            </div>
+                <!-- Navbar Up -->
+            <nav class="topnavbar navbar-default topnav">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed toggle-costume" data-toggle="collapse" data-target="#upmenu" aria-expanded="false">
+                            <span class="sr-only"> Toggle navigaion</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand logo" href="#"><img src=""""),_display_(/*55.74*/routes/*55.80*/.Assets.at("images/logo1.png")),format.raw/*55.110*/("""" alt="logo"></a>
                     </div>
                 </div>
-            </nav>
-      """),_display_(/*108.8*/if(title.equalsIgnoreCase("Login") || title.equalsIgnoreCase("Registration"))/*108.85*/ {_display_(Seq[Any](format.raw/*108.87*/("""
-            """),_display_(/*109.14*/content),format.raw/*109.21*/("""
-        """)))}/*110.10*/else/*110.14*/{_display_(Seq[Any](format.raw/*110.15*/("""
-            """),format.raw/*111.13*/("""<div class="ttr_banner_slideshow">
-</div>
-            <div class="ttr_slideshow">
-                <div id="ttr_slideshow_inner">
-                    <ul>
-                        <li id="Slide0" class="ttr_slide" style="background-image: url('"""),_display_(/*116.90*/routes/*116.96*/.Assets.at("images/HomeDesktopSlide0.jpg")),format.raw/*116.138*/("""')" data-slideEffect="Fade">
-                            <a href="http://www.example.com"></a>
-                            <div class="ttr_slideshow_last">
-</div>
+                <div class="collapse navbar-collapse" id="upmenu">
+                    <ul class="nav navbar-nav" id="navbarontop">
+                        <li class="active"><a href="#">HOME</a> </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle"	data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CATEGORIES <span class="caret"></span></a>
+                            <ul class="dropdown-menu dropdowncostume">
+                                <li><a href="#">Sport</a></li>
+                                <li><a href="#">Old</a></li>
+                                <li><a href="#">New</a></li>
+                            </ul>
                         </li>
-                        <li id="Slide1" class="ttr_slide" style="background-image: url('"""),_display_(/*121.90*/routes/*121.96*/.Assets.at("images/HomeDesktopSlide1.jpg")),format.raw/*121.138*/("""')" data-slideEffect="Fade">
-                            <a href="http://www.example.com"></a>
-                            <div class="ttr_slideshow_last">
-</div>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DEALERS <span class="caret"></span></a>
+                            <ul class="dropdown-menu dropdowncostume">
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="3">3</a></li>
+                            </ul>
                         </li>
-                        <li id="Slide2" class="ttr_slide" style="background-image: url('"""),_display_(/*126.90*/routes/*126.96*/.Assets.at("images/HomeDesktopSlide2.jpg")),format.raw/*126.138*/("""')" data-slideEffect="RadialBlur">
-                            <a href="http://templatetoaster.com/"></a>
-                            <div class="ttr_slideshow_last">
-</div>
+                        <li>
+                            """),format.raw/*78.88*/("""
+                            """),format.raw/*79.29*/("""<a href="/contact">CONTACT</a>
+
                         </li>
+                        <button><span class="postnewcar">POST NEW CAR</span></button>
                     </ul>
                 </div>
-                <div class="ttr_slideshow_in">
-                    <div class="ttr_slideshow_last">
-                        <div class="left-button">
-</div>
-                        <div id="nav"></div>
-                        <div class="right-button">
-</div>
-                    </div>
-                </div>
-            </div>
-            <div class="ttr_banner_slideshow">
-</div>
-            <div id="ttr_content_and_sidebar_container">
-                <div id="ttr_content">
-                    <div id="ttr_content_margin"class="container-fluid">
-                        <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                        <div class="ttr_Home_html_row0 row">
-                            <div class="post_column col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <div class="ttr_Home_html_column00">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="text-align:Center;line-height:2.11267605633803;"><span style="font-family:'Droid Serif','Droid Serif','Droid Serif';font-style:italic;font-size:2.286em;color:rgba(142,91,34,1);text-decoration:underline">OUR SPECIAL OFFER AND SERVICES</span></p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-lg-block visible-sm-block visible-md-block visible-xs-block">
-</div>
-                            <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <div class="ttr_Home_html_column01">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="text-align:Center;"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 1.79em 0em;"><span><img class="ttr_uniform" src=""""),_display_(/*163.248*/routes/*163.254*/.Assets.at("images/31.png")),format.raw/*163.281*/("""" style="max-width:70px;max-height:62px;" /></span></span><span style="font-family:'Droid Serif','Times New Roman';font-size:1.571em;">SPECIAL</span></p><p style="margin:0.36em 0.36em 0.36em 0.36em;text-align:Center;"><span style="font-family:'Droid Serif','Times New Roman';font-size:1.571em;">PROMOTION</span></p><p style="margin:0.71em 0.36em 0.36em 0.36em;text-align:Center;line-height:1.54929577464789;"><span style="font-family:'Roboto','Arial';">Cum sociis natoque penatibus et magnis dis part urient montes, nascetur ridiculus mus. Vestib ulum id ligula porta felis euis. Donec sed odio dui. Maecenas faucibus mollis interdum aenean rutrum.</span></p><p style="margin:0.71em 0.36em 0.36em 0.36em;text-align:Center;line-height:1.76056338028169;"><span><span><a HREF="#" target="_self" class="btn btn-md btn-default">READ MORE</a></span> </span></p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-xs-block">
-</div>
-                            <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <div class="ttr_Home_html_column02">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="text-align:Center;"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 1.79em 0em;"><span><img class="ttr_uniform" src=""""),_display_(/*173.248*/routes/*173.254*/.Assets.at("images/32.png")),format.raw/*173.281*/("""" style="max-width:70px;max-height:62px;" /></span></span><span style="font-family:'Droid Serif','Droid Serif','Arial';font-size:1.571em;">BED &amp; BREAKFAST</span></p><p style="margin:0.36em 0.36em 0.36em 0.36em;text-align:Center;"><span style="font-family:'Droid Serif','Droid Serif','Arial';font-size:1.571em;">PACKAGE</span></p><p style="margin:0.71em 0.36em 0.36em 0.36em;text-align:Center;line-height:1.54929577464789;"><span style="font-family:'Roboto','Arial';">Fusce feugiat malesuada odio. orbi nunc odio gravida at cursus nec luctus .Mae cenas tristique orci ac sem. Duis ultricies pharetra magna onec accumsan. male suada Duis diam eros</span></p><p style="margin:0.71em 0.36em 0.36em 0.36em;text-align:Center;line-height:1.76056338028169;"><span><span><a HREF="#" target="_self" class="btn btn-md btn-default">READ MORE</a></span></span></p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-sm-block visible-md-block visible-xs-block">
-</div>
-                            <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <div class="ttr_Home_html_column03">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="text-align:Center;"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 1.79em 0em;"><span><img class="ttr_uniform" src=""""),_display_(/*183.248*/routes/*183.254*/.Assets.at("images/33.png")),format.raw/*183.281*/("""" style="max-width:70px;max-height:62px;" /></span></span><span style="font-family:'Droid Serif','Times New Roman';font-size:1.571em;">HOTEL</span></p><p style="margin:0.36em 0.36em 0.36em 0.36em;text-align:Center;"><span style="font-family:'Droid Serif','Times New Roman';font-size:1.571em;">RESTAURANT</span></p><p style="margin:0.71em 0.36em 0.36em 0.36em;text-align:Center;line-height:1.54929577464789;"><span style="font-family:'Roboto','Arial';">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium inventore&nbsp;&nbsp;inventore dolo rem que laudantium, totam rem aper iam, eaque ipsa quae ab illo inventore veritat is beatae vitae.</span></p><p style="margin:0.71em 0.36em 0.36em 0.36em;text-align:Center;line-height:1.76056338028169;"><span> </span><span><a HREF="#" target="_self" class="btn btn-md btn-default">READ MORE</a></span></p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-xs-block">
-</div>
-                            <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <div class="ttr_Home_html_column04">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="text-align:Center;"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 1.79em 0em;"><span><img class="ttr_uniform" src=""""),_display_(/*193.248*/routes/*193.254*/.Assets.at("images/34.png")),format.raw/*193.281*/("""" style="max-width:70px;max-height:62px;" /></span></span><span style="font-family:'Droid Serif','Times New Roman';font-size:1.571em;">SIGN UP FOR</span></p><p style="margin:0.36em 0.36em 0.36em 0.36em;text-align:Center;"><span style="font-family:'Droid Serif','Times New Roman';font-size:1.571em;">OUR GUESTBOOK</span></p><p style="margin:0.71em 0.36em 0.36em 0.36em;text-align:Center;line-height:1.54929577464789;"><span style="font-family:'Roboto','Arial';">pellentesque eu,pretium quis, sem. Nulla consequat massa quis enim.Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut , imperdiet a, venenatis vitae</span></p><p style="margin:0.71em 0.36em 0.36em 0.36em;text-align:Center;line-height:1.76056338028169;"><span><span><a HREF="#" target="_self" class="btn btn-md btn-default">READ MORE</a></span></span></p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-lg-block visible-sm-block visible-md-block visible-xs-block">
-</div>
-                        </div>
-                        <div class="ttr_Home_html_row1 row">
-                            <div class="post_column col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                <div class="ttr_Home_html_column10">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="margin:0em 0em 0em 0em;line-height:1.76056338028169;"><span style="font-family:'Droid Serif','Times New Roman';font-size:2.286em;color:rgba(142,91,34,1);">FAMILY</span></p><p style="margin:0.36em 0em 0em 0em;line-height:1.76056338028169;"><span style="font-family:'Droid Serif','Times New Roman';font-size:2.286em;color:rgba(142,91,34,1);">PACKAGES</span></p><p style="margin:0.71em 0em 0em 0em;"><span style="font-family:'Roboto','Arial';font-size:1.571em;">from $85</span></p><p style="margin:2.86em 0em 0em 0em;line-height:1.76056338028169;"><span style="font-family:'Droid Serif','Times New Roman';font-size:2.286em;color:rgba(142,91,34,1);">BUSINESS</span></p><p style="margin:0.36em 0em 0em 0em;line-height:1.76056338028169;"><span style="font-family:'Droid Serif','Times New Roman';font-size:2.286em;color:rgba(142,91,34,1);">PACKAGES</span></p><p style="margin:0.71em 0em 0em 0em;"><span style="font-family:'Roboto','Arial';font-size:1.571em;">from $120</span></p><p style="margin:2.86em 0em 0em 0em;line-height:1.76056338028169;"><span style="font-family:'Droid Serif','Times New Roman';font-size:2.286em;color:rgba(142,91,34,1);">JUST MARRIED</span></p><p style="margin:0.36em 0em 0em 0em;line-height:1.76056338028169;"><span style="font-family:'Droid Serif','Times New Roman';font-size:2.286em;color:rgba(142,91,34,1);">PACKAGES</span></p><p style="margin:0.71em 0em 0em 0em;"><span style="font-family:'Roboto','Arial';font-size:1.571em;">from $250</span></p><p style="margin:0em 0em 0em 1.43em;">&nbsp;</p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-xs-block">
-</div>
-                            <div class="post_column col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                                <div class="ttr_Home_html_column11">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="text-align:Center;"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" src=""""),_display_(/*215.245*/routes/*215.251*/.Assets.at("images/35.jpg")),format.raw/*215.278*/("""" style="max-width:650px;max-height:432px;" /></span></span></p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-lg-block visible-sm-block visible-md-block visible-xs-block">
-</div>
-                        </div>
-                        <div class="ttr_Home_html_row2 row">
-                            <div class="post_column col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <div class="ttr_Home_html_column20">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="text-align:Center;line-height:2.11267605633803;"><span style="font-family:'Droid Serif','Times New Roman';font-style:italic;font-size:2.286em;color:rgba(142,91,34,1);text-decoration:underline">HOTEL LEISURE ROOM</span></p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-lg-block visible-sm-block visible-md-block visible-xs-block">
-</div>
-                            <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <div class="ttr_Home_html_column21">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="text-align:Center;"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img src=""""),_display_(/*237.225*/routes/*237.231*/.Assets.at("images/36.jpg")),format.raw/*237.258*/("""" class="ttr_fill" style="max-width:300px;max-height:192px;" /></span></span></p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-xs-block">
-</div>
-                            <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <div class="ttr_Home_html_column22">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="text-align:Center;"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img src=""""),_display_(/*247.225*/routes/*247.231*/.Assets.at("images/37.jpg")),format.raw/*247.258*/("""" class="ttr_fill" style="max-width:300px;max-height:192px;" /></span></span></p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-sm-block visible-md-block visible-xs-block">
-</div>
-                            <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <div class="ttr_Home_html_column23">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="text-align:Center;"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img src=""""),_display_(/*257.225*/routes/*257.231*/.Assets.at("images/38.jpg")),format.raw/*257.258*/("""" class="ttr_fill" style="max-width:300px;max-height:192px;" /></span></span></p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-xs-block">
-</div>
-                            <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <div class="ttr_Home_html_column24">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="text-align:Center;"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img src=""""),_display_(/*267.225*/routes/*267.231*/.Assets.at("images/39.jpg")),format.raw/*267.258*/("""" class="ttr_fill" style="max-width:300px;max-height:192px;" /></span></span></p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-lg-block visible-sm-block visible-md-block visible-xs-block">
-</div>
-                            <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <div class="ttr_Home_html_column25">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="text-align:Center;"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img src=""""),_display_(/*277.225*/routes/*277.231*/.Assets.at("images/40.jpg")),format.raw/*277.258*/("""" class="ttr_fill" style="max-width:300px;max-height:192px;" /></span></span></p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-xs-block">
-</div>
-                            <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <div class="ttr_Home_html_column26">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="text-align:Center;"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img src=""""),_display_(/*287.225*/routes/*287.231*/.Assets.at("images/41.jpg")),format.raw/*287.258*/("""" class="ttr_fill" style="max-width:300px;max-height:192px;" /></span></span></p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-sm-block visible-md-block visible-xs-block">
-</div>
-                            <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <div class="ttr_Home_html_column27">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="text-align:Center;"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img src=""""),_display_(/*297.225*/routes/*297.231*/.Assets.at("images/42.jpg")),format.raw/*297.258*/("""" class="ttr_fill" style="max-width:300px;max-height:192px;" /></span></span></p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-xs-block">
-</div>
-                            <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <div class="ttr_Home_html_column28">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="text-align:Center;"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img src=""""),_display_(/*307.225*/routes/*307.231*/.Assets.at("images/43.jpg")),format.raw/*307.258*/("""" class="ttr_fill" style="max-width:300px;max-height:192px;" /></span></span></p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-lg-block visible-sm-block visible-md-block visible-xs-block">
-</div>
-                        </div>
-                        <div class="ttr_Home_html_row3 row">
-                            <div class="post_column col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <div class="ttr_Home_html_column30">
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div class="html_content"><p style="margin:0.36em 0.36em 0.36em 0em;text-align:Center;line-height:2.11267605633803;"><span style="font-family:'Droid Serif','Times New Roman';font-style:italic;font-size:2.286em;color:rgba(142,91,34,1);text-decoration:underline">WHAT THEY SAY ABOUT US</span></p><p style="margin:3.57em 0em 0.36em 0em;text-align:Center;line-height:2.11267605633803;"><span style="font-family:'Roboto','Arial';font-size:1.429em;">Staff are always friendly, welcoming and efficient. Rooms are clean, food excellent, gym well equipped. HotelEngine will continue to be my first choice for my next hotel's website. </span></p><p style="margin:1.43em 0.36em 0.36em 0em;text-align:Center;line-height:2.11267605633803;"><span style="font-family:'Roboto';font-size:1.429em;color:rgba(142,91,34,1);">JUSTIN NGUYEN</span></p></div>
-                                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div style="clear:both;"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-lg-block visible-sm-block visible-md-block visible-xs-block">
-</div>
-                        </div>
-                        <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                    </div>
-                </div>
-                <div style="clear:both">
-</div>
-            </div>
-            <div style="height:0px;width:0px;overflow:hidden;"></div>
-            """)))}),format.raw/*334.14*/("""
-            """),format.raw/*335.13*/("""<footer id="ttr_footer">
-                <div class="ttr_footerHome_html_row0 row">
-                    <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="ttr_footerHome_html_column00">
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                            <div class="html_content"><p style="margin:0.36em 0.36em 0.36em 1.79em;"><br style="font-family:'Arial';" /></p><p style="margin:0em 0em 0em 3.57em;"><span style="font-family:'Droid Serif','Times New Roman';font-size:1.429em;color:rgba(255,255,255,1);">QUICK LINKS</span></p><p style="margin:1.43em 0em 0em 4.29em;"><a HREF="About.html" class="tt_link" target="_self"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">ABOUT</span></a></p><p style="margin:0.71em 0em 0em 4.29em;"><a HREF="Services.html" class="tt_link" target="_self"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">SERVICES</span></a></p><p style="margin:0.71em 0em 0em 4.29em;"><a HREF="Events.html" class="tt_link" target="_self"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">EVENTS</span></a></p><p style="margin:0.71em 0em 0em 4.29em;"><a HREF="Blog.html" class="tt_link" target="_self"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">BLOG</span></a></p><p style="margin:0.71em 0em 0em 2.86em;"><br style="font-family:'Arial';" /></p></div>
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                        </div>
-                    </div>
-                    <div class="clearfix visible-xs-block">
-</div>
-                    <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="ttr_footerHome_html_column01">
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                            <div class="html_content"><p style="margin:0.36em 0.36em 0.36em 1.79em;">&nbsp;</p><p style="margin:0em 0em 0em 3.57em;"><span style="font-family:'Droid Serif','Times New Roman';font-size:1.429em;color:rgba(255,255,255,1);">ROOMS</span></p><p style="margin:1.43em 0em 0em 4.29em;"><a HREF="Rooms.html" class="tt_link" target="_self"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">STANDARD ROOMS</span></a></p><p style="margin:0.71em 0em 0em 4.29em;"><a HREF="Rooms.html" class="tt_link" target="_self"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">SUITE ROOMS</span></a></p><p style="margin:0.71em 0em 0em 4.29em;"><a HREF="Rooms.html" class="tt_link" target="_self"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">DELUXE ROOMS</span></a></p><p style="margin:0.71em 0em 0em 4.29em;"><a HREF="Rooms.html" class="tt_link" target="_self"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">EXCUTIVE ROOMS</span></a></p><p style="margin:0.71em 0em 0em 2.86em;">&nbsp;</p></div>
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                        </div>
-                    </div>
-                    <div class="clearfix visible-sm-block visible-md-block visible-xs-block">
-</div>
-                    <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="ttr_footerHome_html_column02">
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                            <div class="html_content"><p style="margin:0.36em 0.36em 0.36em 1.79em;">&nbsp;</p><p style="margin:0em 0em 0em 3.57em;"><span style="font-family:'Droid Serif','Times New Roman';font-size:1.429em;color:rgba(255,255,255,1);">CONTACT US</span></p><p style="margin:1.43em 0em 0em 4.29em;"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">173A Nguyen Van Troi,</span></p><p style="margin:0.36em 0em 0em 4.29em;"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">Ho Chi Minh City, USA</span></p><p style="margin:1.43em 0em 0em 4.29em;"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">PHONE :-&nbsp;&nbsp;+44 (0) 1334 896578</span></p><p style="margin:0.36em 0em 0em 4.29em;"><span style="font-family:'Arial';font-size:0.857em;color:rgba(255,255,255,1);">MOBILE :-&nbsp;&nbsp;+44 (0) 1334 869548</span></p><p style="margin:0.36em 0em 0em 2.86em;"><br style="font-family:'Roboto';color:rgba(255,255,255,1);" /></p></div>
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                        </div>
-                    </div>
-                    <div class="clearfix visible-xs-block">
-</div>
-                    <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="ttr_footerHome_html_column03">
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                            <div class="html_content"><p style="margin:0.36em 0.36em 0.36em 3.21em;">&nbsp;</p><p style="margin:0em 0em 0em 2.86em;"><span style="font-family:'Droid Serif';font-size:1.429em;color:rgba(255,255,255,1);">&nbsp;&nbsp;</span><span style="font-family:'Droid Serif','Times New Roman';font-size:1.429em;color:rgba(255,255,255,1);">FOLLOW US</span></p><p style="margin:1.43em 0em 0em 4.29em;"><span class="ttr_image" style="float:Left;overflow:hidden;margin:0.36em 0.36em 0.36em 0.36em;"><span><img src=""""),_display_(/*367.530*/routes/*367.536*/.Assets.at("images/44.png")),format.raw/*367.563*/("""" class="ttr_fill" style="max-width:32px;max-height:32px;" /></span></span><span class="ttr_image" style="float:Left;overflow:hidden;margin:0.36em 0.36em 0.36em 0.36em;"><span><img src=""""),_display_(/*367.750*/routes/*367.756*/.Assets.at("images/45.png")),format.raw/*367.783*/("""" class="ttr_fill" style="max-width:32px;max-height:32px;" /></span></span><span class="ttr_image" style="float:Left;overflow:hidden;margin:0.36em 0.36em 0.36em 0.36em;"><span><img src=""""),_display_(/*367.970*/routes/*367.976*/.Assets.at("images/46.png")),format.raw/*367.1003*/("""" class="ttr_fill" style="max-width:32px;max-height:32px;" /></span></span><span class="ttr_image" style="float:Left;overflow:hidden;margin:0.36em 0.36em 0.36em 0.36em;"><span><img src=""""),_display_(/*367.1190*/routes/*367.1196*/.Assets.at("images/47.png")),format.raw/*367.1223*/("""" class="ttr_fill" style="max-width:32px;max-height:32px;" /></span></span></p></div>
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                        </div>
-                    </div>
-                    <div class="clearfix visible-lg-block visible-sm-block visible-md-block visible-xs-block">
-</div>
-                </div>
-                <div class="ttr_footer_bottom_footer">
-                    <div class="ttr_footer_bottom_footer_inner">
-                        <div id="ttr_copyright">
-                            <a href="#">
-Copyright © 2017. All rights reserved.
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-bottom-collapse: separate;"></div>
+            </nav>
         </div>
-        <script type="text/javascript">
-WebFontConfig = """),format.raw/*387.17*/("""{"""),format.raw/*387.18*/("""
-    """),format.raw/*388.5*/("""google: """),format.raw/*388.13*/("""{"""),format.raw/*388.14*/(""" """),format.raw/*388.15*/("""families: [ 'Droid+Serif'] """),format.raw/*388.42*/("""}"""),format.raw/*388.43*/("""
-"""),format.raw/*389.1*/("""}"""),format.raw/*389.2*/(""";
-(function() """),format.raw/*390.13*/("""{"""),format.raw/*390.14*/("""
-    """),format.raw/*391.5*/("""var wf = document.createElement('script');
-    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1.0.31/webfont.js';
-    wf.type = 'text/javascript';
-    wf.async = 'true';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(wf, s);
-"""),format.raw/*397.1*/("""}"""),format.raw/*397.2*/(""")();
-</script>
+            <!--_______________________________________ Carousel__________________________________ -->
+        <div class="allcontain">
+            <div id="carousel-up" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner " role="listbox">
+                    <div class="item active">
+                        <img src=""""),_display_(/*92.36*/routes/*92.42*/.Assets.at("images/oldcar.jpg")),format.raw/*92.73*/("""" alt="oldcar">
+                        <div class="carousel-caption">
+                            <h2>Porsche 356</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur ,<br>
+                                sed do eiusmod tempor incididunt ut labore </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src=""""),_display_(/*100.36*/routes/*100.42*/.Assets.at("images/porche.jpg")),format.raw/*100.73*/("""" alt="porche">
+                        <div class="carousel-caption">
+                            <h2>Porche</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur ,<br>
+                                sed do eiusmod tempor incididunt ut labore </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src=""""),_display_(/*108.36*/routes/*108.42*/.Assets.at("images/benz.jpg")),format.raw/*108.71*/("""" alt="benz">
+                        <div class="carousel-caption">
+                            <h2>Car</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur ,<br>
+                                sed do eiusmod tempor incididunt ut labore </p>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-default midle-nav">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed textcostume" data-toggle="collapse" data-target="#navbarmidle" aria-expanded="false">
+                            <h1>SEARCH TEXT</h1>
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarmidle">
+                        <div class="searchtxt">
+                            <h1>SEARCH TEXT</h1>
+                        </div>
+                        <form class="navbar-form navbar-left searchformmargin" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control searchform" placeholder="Enter Keyword">
+                            </div>
+                        </form>
+                        <ul class="nav navbar-nav navbarborder">
+                            <li class="li-category">
+                                <a class="btn  dropdown-toggle btn-costume"  id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Category<span class="glyphicon glyphicon-chevron-down downicon"></span></a>
+                                <ul class="dropdown-menu" id="mydd">
+                                    <li><a href="#">Epic</a></li>
+                                    <li><a href="#">Old</a></li>
+                                    <li><a href="#">New</a></li>
+                                </ul>
+                            </li>
+                            <li class="li-minyear"><a class="btn  dropdown-toggle btn-costume"  id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Min Year <span class="glyphicon glyphicon-chevron-down downicon"></span></a>
+                                <ul class="dropdown-menu" id="mydd2">
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                </ul>
+                            </li>
+                            <li class="li-maxyear"><a class="btn dropdown-toggle btn-costume"  id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Max Year <span class="glyphicon glyphicon-chevron-down downicon"></span></a>
+                                <ul class="dropdown-menu" id="mydd3">
+                                    <li><a href="#">1900</a></li>
+                                    <li><a href="#">2000</a></li>
+                                    <li><a href="#">2016</a></li>
+                                </ul>
+                            </li>
+                            <li class="li-slideprice">
+                                <p> <label class="slidertxt" for="amount">Price </label>
+                                    <input class="priceslider" type="text" id="amount" readonly="readonly">
+                                </p>
+                                <div id="slider-range"></div>
+
+                            </li>
+                            <li class="li-search"> <button class="searchbutton"><span class="glyphicon glyphicon-search "></span></button></li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+            <!-- ____________________Featured Section ______________________________-->
+        <div class="allcontain">
+            <div class="feturedsection">
+                <h1 class="text-center"><span class="bdots">&bullet;</span>F E A T U R E S<span class="carstxt">C A R S</span>&bullet;</h1>
+            </div>
+            <div class="feturedimage">
+                <div class="row firstrow">
+                    <div class="col-lg-6 costumcol colborder1">
+                        <div class="row costumrow">
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img1colon">
+                                <img src=""""),_display_(/*182.44*/routes/*182.50*/.Assets.at("images/featurporch.jpg")),format.raw/*182.86*/("""" alt="porsche">
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
+                                <div class="featurecontant">
+                                    <h1>LOREM IPSUM</h1>
+                                    <p>"Lorem ipsum dolor sit amet, consectetur ,<br>
+                                        sed do eiusmod tempor incididunt </p>
+                                    <h2>Price &euro;</h2>
+                                    <button id="btnRM" onClick="rmtxt()">READ MORE</button>
+                                    <div id="readmore">
+                                        <h1>Car Name</h1>
+                                        <p>"Lorem ipsum dolor sit amet, consectetur ,<br>
+                                            sed do eiusmod tempor incididunt <br>"Lorem ipsum dolor sit amet, consectetur ,<br>
+                                            sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1 ,
+                                            sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1
+                                            sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1<br>
+                                        </p>
+                                        <button id="btnRL">READ LESS</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 costumcol colborder2">
+                        <div class="row costumrow">
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img2colon">
+                                <img src=""""),_display_(/*208.44*/routes/*208.50*/.Assets.at("images/featurporch1.jpg")),format.raw/*208.87*/("""" alt="porsche1">
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
+                                <div class="featurecontant">
+                                    <h1>LOREM IPSUM</h1>
+                                    <p>"Lorem ipsum dolor sit amet, consectetur ,<br>
+                                        sed do eiusmod tempor incididunt </p>
+                                    <h2>Price &euro;</h2>
+                                    <button id="btnRM2">READ MORE</button>
+                                    <div id="readmore2">
+                                        <h1>Car Name</h1>
+                                        <p>"Lorem ipsum dolor sit amet, consectetur ,<br>
+                                            sed do eiusmod tempor incididunt <br>"Lorem ipsum dolor sit amet, consectetur ,<br>
+                                            sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1 ,
+                                            sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1
+                                            sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1<br></p>
+                                        <button id="btnRL2">READ LESS</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!-- ________________________LATEST CARS SECTION _______________________-->
+            <div class="latestcars">
+                <h1 class="text-center">&bullet; LATEST   CARS &bullet;</h1>
+                <ul class="nav nav-tabs navbar-left latest-navleft">
+                    <li role="presentation" class="li-sortby"><span class="sortby">SORT BY: </span></li>
+                    <li data-filter=".RECENT" role="presentation"><a href="#mostrecent" class="prcBtnR">MOST RECENT </a></li>
+                    <li data-filter=".POPULAR" role="presentation"><a href="#mostpopular" class="prcBtnR">MOST POPULAR </a></li>
+                    <li  role="presentation"><a href="#" class="alphSort">ALPHABETICAL </a></li>
+                    <li data-filter=".HPRICE" role="presentation"><a href="#" class="prcBtnH">HIGHEST PRICE </a></li>
+                    <li data-filter=".LPRICE" role="presentation"><a href="#" class="prcBtnL">LOWEST  PRICE </a></li>
+                    <li id="hideonmobile">
+                </ul>
+            </div>
+            <br>
+            <br>
+                <!-- ________________________Latest Cars Image Thumbnail________________-->
+            <div class="grid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="txthover">
+                            <img src=""""),_display_(/*252.40*/routes/*252.46*/.Assets.at("images/car1.jpg")),format.raw/*252.75*/("""" alt="car1">
+                            <div class="txtcontent">
+                                <div class="stars">
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                </div>
+                                <div class="simpletxt">
+                                    <h3 class="name">Rolls Royce</h3>
+                                    <p>"Lorem ipsum dolor sit amet, consectetur,<br>
+                                        sed do eiusmod tempor incididunt" </p>
+                                    <h4 class="price"> 1000&euro;</h4>
+                                    <button>READ MORE</button><br>
+                                    <div class="wishtxt">
+                                        <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                        <p class="paragraph2">Compare <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+                                    </div>
+                                </div>
+                                <div class="stars2">
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
+                        <div class="txthover">
+                            <img src=""""),_display_(/*280.40*/routes/*280.46*/.Assets.at("images/car2.jpg")),format.raw/*280.75*/("""" alt="car2">
+                            <div class="txtcontent">
+                                <div class="stars">
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                </div>
+                                <div class="simpletxt">
+                                    <h3 class="name">Renault</h3>
+                                    <p>"Lorem ipsum dolor sit amet, consectetur,<br>
+                                        sed do eiusmod tempor incididunt" </p>
+                                    <h4 class="price">900 &euro;</h4>
+                                    <button>READ MORE</button><br>
+                                    <div class="wishtxt">
+                                        <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                        <p class="paragraph2">Compare <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+                                    </div>
+                                </div>
+                                <div class="stars2">
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="txthover">
+                            <img src=""""),_display_(/*308.40*/routes/*308.46*/.Assets.at("images/car3.jpg")),format.raw/*308.75*/("""" alt="car3">
+                            <div class="txtcontent">
+                                <div class="stars">
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                </div>
+                                <div class="simpletxt">
+                                    <h3 class="name">Ford Mustang</h3>
+                                    <p>"Lorem ipsum dolor sit amet, consectetur,<br>
+                                        sed do eiusmod tempor incididunt" </p>
+                                    <h4 class="price">3000 &euro;</h4>
+                                    <button>READ MORE</button><br>
+                                    <div class="wishtxt">
+                                        <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                        <p class="paragraph2">Compare <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+                                    </div>
+                                </div>
+                                <div class="stars2">
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="txthover">
+                            <img src=""""),_display_(/*336.40*/routes/*336.46*/.Assets.at("images/car4.jpg")),format.raw/*336.75*/("""" alt="car4">
+                            <div class="txtcontent">
+                                <div class="stars">
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                </div>
+                                <div class="simpletxt">
+                                    <h3 class="name">Rover</h3>
+                                    <p>"Lorem ipsum dolor sit amet, consectetur,<br>
+                                        sed do eiusmod tempor incididunt" </p>
+                                    <h4 class="price">1000 &euro;</h4>
+                                    <button>READ MORE</button><br>
+                                    <div class="wishtxt">
+                                        <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                        <p class="paragraph2">Compare <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+                                    </div>
+                                </div>
+                                <div class="stars2">
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="txthover">
+                            <img src=""""),_display_(/*364.40*/routes/*364.46*/.Assets.at("images/car5.jpg")),format.raw/*364.75*/("""" alt="car5">
+                            <div class="txtcontent">
+                                <div class="stars">
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                </div>
+                                <div class="simpletxt">
+                                    <h3 class="name">Porche</h3>
+                                    <p>"Lorem ipsum dolor sit amet, consectetur,<br>
+                                        sed do eiusmod tempor incididunt" </p>
+                                    <h4 class="price">1200 &euro;</h4>
+                                    <button>READ MORE</button><br>
+                                    <div class="wishtxt">
+                                        <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                        <p class="paragraph2">Compare <span class="icon"><img src=""""),_display_(/*379.101*/routes/*379.107*/.Assets.at("images/compicon.png")),format.raw/*379.140*/("""" alt="compicon"></span></p>
+                                    </div>
+                                </div>
+                                <div class="stars2">
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="txthover">
+                            <img src=""""),_display_(/*392.40*/routes/*392.46*/.Assets.at("images/car6.jpg")),format.raw/*392.75*/("""" alt="car6">
+                            <div class="txtcontent">
+                                <div class="stars">
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                </div>
+                                <div class="simpletxt">
+                                    <h3 class="name">Porche 911</h3>
+                                    <p>"Lorem ipsum dolor sit amet, consectetur,<br>
+                                        sed do eiusmod tempor incididunt" </p>
+                                    <h4 class="price">4000 &euro;</h4>
+                                    <button>READ MORE</button><br>
+                                    <div class="wishtxt">
+                                        <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                        <p class="paragraph2">Compare <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+                                    </div>
+                                </div>
+                                <div class="stars2">
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="txthover">
+                            <img src=""""),_display_(/*420.40*/routes/*420.46*/.Assets.at("images/car7.jpg")),format.raw/*420.75*/("""" alt="car7">
+                            <div class="txtcontent">
+                                <div class="stars">
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                </div>
+                                <div class="simpletxt">
+                                    <h3 class="name">Chevrolet SS</h3>
+                                    <p>"Lorem ipsum dolor sit amet, consectetur,<br>
+                                        sed do eiusmod tempor incididunt" </p>
+                                    <h4 class="price">3000 &euro;</h4>
+                                    <button>READ MORE</button><br>
+                                    <div class="wishtxt">
+                                        <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                        <p class="paragraph2">Compare <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+                                    </div>
+                                </div>
+                                <div class="stars2">
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="txthover">
+                            <img src=""""),_display_(/*448.40*/routes/*448.46*/.Assets.at("images/car8.jpg")),format.raw/*448.75*/("""" alt="car8">
+                            <div class="txtcontent">
+                                <div class="stars">
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                </div>
+                                <div class="simpletxt">
+                                    <h3 class="name">Meclaren</h3>
+                                    <p>"Lorem ipsum dolor sit amet, consectetur,<br>
+                                        sed do eiusmod tempor incididunt" </p>
+                                    <h4 class="price">2500 &euro;</h4>
+                                    <button>READ MORE</button><br>
+                                    <div class="wishtxt">
+                                        <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
+                                        <p class="paragraph2">Compare <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+                                    </div>
+                                </div>
+                                <div class="stars2">
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                    <div class="glyphicon glyphicon-star"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!-- _______________________________News Letter ____________________-->
+            <div class="newslettercontent">
+                <div class="leftside">
+                    <img src=""""),_display_(/*479.32*/routes/*479.38*/.Assets.at("images/border.png")),format.raw/*479.69*/("""" alt="border">
+                    <h1>NEWSLETTER</h1>
+                    <p>Subscribe to the COLLECTIONCARS mailing list to <br>
+                        receive updates on new arrivals, special offers <br>
+                        and other discount information.</p>
+                </div>
+                <div class="rightside">
+                    <img class="newsimage" src=""""),_display_(/*486.50*/routes/*486.56*/.Assets.at("images/newsletter.jpg")),format.raw/*486.91*/("""" alt="newsletter">
+                    <input type="text" class="form-control" id="subemail" placeholder="EMAIL">
+                    <button>SUBSCRIBE</button>
+                </div>
+            </div>
+                <!-- ______________________________________________________Bottom Menu ______________________________-->
+            <div class="bottommenu">
+                <div class="bottomlogo">
+                    <span class="dotlogo">&bullet;</span><img src=""""),_display_(/*494.69*/routes/*494.75*/.Assets.at("images/collectionlogo1.png")),format.raw/*494.115*/("""" alt="logo1"><span class="dotlogo">&bullet;;</span>
+                </div>
+                <ul class="nav nav-tabs bottomlinks">
+                    <li role="presentation" ><a href="#/" role="button">ABOUT US</a></li>
+                    <li role="presentation"><a href="#/">CATEGORIES</a></li>
+                    <li role="presentation"><a href="#/">PREORDERS</a></li>
+                    <li role="presentation"><a href="#/">CONTACT US</a></li>
+                    <li role="presentation"><a href="#/">RECEIVE OUR NEWSLETTER</a></li>
+                </ul>
+                <p>"Lorem ipsum dolor sit amet, consectetur,  sed do eiusmod tempor incididunt <br>
+                    eiusmod tempor incididunt"</p>
+                <img src=""""),_display_(/*505.28*/routes/*505.34*/.Assets.at("image/line.png")),format.raw/*505.62*/("""" alt="line"> <br>
+                <div class="bottomsocial">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                </div>
+                <div class="footer">
+                    <div class="copyright">
+                            &copy; Copy right 2016 | <a href="#">Privacy </a>| <a href="#">Policy</a>
+                    </div>
+                    <div class="atisda">
+                        Designed by <a href="http://www.webdomus.net/">Web Domus Italia - Web Agency </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/jquery.js"></script>
+        <script type="text/javascript" src="source/js/isotope.js"></script>
+        <script type="text/javascript" src="source/js/myscript.js"></script>
+        <script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/jquery.1.11.js"></script>
+        <script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
     </body>
 </html>
 
@@ -449,11 +578,11 @@ WebFontConfig = """),format.raw/*387.17*/("""{"""),format.raw/*387.18*/("""
 object main extends main_Scope0.main
               /*
                   -- GENERATED --
-                  DATE: Thu Oct 12 11:41:22 PDT 2017
+                  DATE: Thu Oct 19 21:19:03 AEDT 2017
                   SOURCE: C:/Users/mistu/Downloads/htmgmtsys/Hotel-Management-App/Hotel-Management-App/app/views/main.scala.html
-                  HASH: e9eb1d0c1ba6bed9d2d02515aaf25a7ce893fbfa
-                  MATRIX: 748->1|907->31|937->74|965->76|1106->190|1121->196|1187->241|1274->301|1289->307|1352->349|1439->409|1454->415|1516->456|1603->516|1618->522|1681->564|1768->624|1783->630|1841->667|1928->727|1943->733|2004->773|2091->833|2106->839|2176->887|2263->947|2278->953|2340->994|2702->1329|2717->1335|2769->1366|2871->1441|2886->1447|2934->1474|3241->1754|3256->1760|3311->1794|3466->1921|3495->1922|3555->1954|3584->1955|3613->1957|3732->2049|3747->2055|3806->2093|3885->2145|3900->2151|3961->2191|4161->2364|4176->2370|4231->2403|4551->2696|4566->2702|4616->2731|7674->5762|7761->5839|7802->5841|7845->5856|7874->5863|7905->5874|7919->5878|7959->5879|8002->5893|8278->6141|8294->6147|8359->6189|8674->6476|8690->6482|8755->6524|9070->6811|9086->6817|9151->6859|11760->9439|11777->9445|11827->9472|13616->11232|13633->11238|13683->11265|15506->13059|15523->13065|15573->13092|17375->14865|17392->14871|17442->14898|21623->19050|21640->19056|21690->19083|23816->21180|23833->21186|23883->21213|24875->22176|24892->22182|24942->22209|25968->23206|25985->23212|26035->23239|27027->24202|27044->24208|27094->24235|28137->25249|28154->25255|28204->25282|29196->26245|29213->26251|29263->26278|30289->27275|30306->27281|30356->27308|31348->28271|31365->28277|31415->28304|33972->30829|34015->30843|39887->36686|39904->36692|39954->36719|40170->36906|40187->36912|40237->36939|40453->37126|40470->37132|40521->37159|40738->37346|40756->37352|40807->37379|41832->38375|41862->38376|41896->38382|41933->38390|41963->38391|41993->38392|42049->38419|42079->38420|42109->38422|42138->38423|42182->38438|42212->38439|42246->38445|42610->38781|42639->38782
-                  LINES: 27->1|33->1|35->5|36->6|40->10|40->10|40->10|42->12|42->12|42->12|44->14|44->14|44->14|46->16|46->16|46->16|48->18|48->18|48->18|50->20|50->20|50->20|52->22|52->22|52->22|54->24|54->24|54->24|62->32|62->32|62->32|63->33|63->33|63->33|68->38|68->38|68->38|72->42|72->42|72->42|72->42|73->43|76->46|76->46|76->46|78->48|78->48|78->48|84->54|84->54|84->54|90->60|90->60|90->60|138->108|138->108|138->108|139->109|139->109|140->110|140->110|140->110|141->111|146->116|146->116|146->116|151->121|151->121|151->121|156->126|156->126|156->126|193->163|193->163|193->163|203->173|203->173|203->173|213->183|213->183|213->183|223->193|223->193|223->193|245->215|245->215|245->215|267->237|267->237|267->237|277->247|277->247|277->247|287->257|287->257|287->257|297->267|297->267|297->267|307->277|307->277|307->277|317->287|317->287|317->287|327->297|327->297|327->297|337->307|337->307|337->307|364->334|365->335|397->367|397->367|397->367|397->367|397->367|397->367|397->367|397->367|397->367|397->367|397->367|397->367|417->387|417->387|418->388|418->388|418->388|418->388|418->388|418->388|419->389|419->389|420->390|420->390|421->391|427->397|427->397
+                  HASH: d1eec1e5fb2b8de3757dfbcab4bf2cb01883f580
+                  MATRIX: 748->1|907->31|937->74|965->76|1513->597|1528->603|1584->638|1669->696|1684->702|1769->765|1854->823|1869->829|1918->857|2003->915|2018->921|2068->950|3648->2503|3663->2509|3715->2539|5188->4043|5246->4073|5874->4674|5889->4680|5941->4711|6386->5128|6402->5134|6455->5165|6895->5577|6911->5583|6962->5612|11749->10371|11765->10377|11823->10413|13689->12251|13705->12257|13764->12294|16787->15289|16803->15295|16854->15324|18743->17185|18759->17191|18810->17220|20693->19075|20709->19081|20760->19110|22649->20971|22665->20977|22716->21006|24598->22860|24614->22866|24665->22895|25823->24024|25840->24030|25896->24063|26633->24772|26649->24778|26700->24807|28587->26666|28603->26672|28654->26701|30543->28562|30559->28568|30610->28597|32585->30544|32601->30550|32654->30581|33070->30969|33086->30975|33143->31010|33650->31489|33666->31495|33729->31535|34507->32285|34523->32291|34573->32319
+                  LINES: 27->1|33->1|35->5|36->6|52->22|52->22|52->22|53->23|53->23|53->23|54->24|54->24|54->24|55->25|55->25|55->25|85->55|85->55|85->55|108->78|109->79|122->92|122->92|122->92|130->100|130->100|130->100|138->108|138->108|138->108|212->182|212->182|212->182|238->208|238->208|238->208|282->252|282->252|282->252|310->280|310->280|310->280|338->308|338->308|338->308|366->336|366->336|366->336|394->364|394->364|394->364|409->379|409->379|409->379|422->392|422->392|422->392|450->420|450->420|450->420|478->448|478->448|478->448|509->479|509->479|509->479|516->486|516->486|516->486|524->494|524->494|524->494|535->505|535->505|535->505
                   -- GENERATED --
               */
           
