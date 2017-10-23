@@ -121,17 +121,20 @@ http://www.tooplate.com/view/2079-garage
                         Already A Member ?
                         <span style="color: black">&nbsp;&nbsp;&bullet;</span></h4>
                 </div>
-                <div class="form-group col-md-8 col-md-offset-2">
+                <form action=""""),_display_(/*93.32*/routes/*93.38*/.UserController.userLogin()),format.raw/*93.65*/("""" method="post">
+                    """),_display_(/*94.22*/wflash()),format.raw/*94.30*/("""
+                """),format.raw/*95.17*/("""<div class="form-group col-md-8 col-md-offset-2">
                     <h5 style="text-align: center"><b>Username /Email Address</b></h5>
-                    <input type="text" class="form-control" placeholder="Please enter your username" />
+                    <input type="text" class="form-control" name="userName" placeholder="Please enter your username" required />
                 </div>
                 <div class="form-group col-md-8 col-md-offset-2">
                     <h5 style="text-align: center"><b>Password</b></h5>
-                    <input type="text" class="form-control" placeholder="Please enter your password" />
+                    <input type="password" class="form-control" name="password" placeholder="Please enter your password" required />
                 </div>
                 <div class="form-group col-md-offset-7">
                     <input type="submit" class="btn btn-info" style="padding-left: 22px; padding-right: 22px; font-weight: bold; color: black" value="Sign In"/>
                 </div>
+                </form>
                 <div class="form-group col-md-offset-5" style="padding-bottom: 45px">
                     <a href="">Forgot Your Password ?</a>
                 </div>
@@ -141,7 +144,7 @@ http://www.tooplate.com/view/2079-garage
             <!-- ______________________________________________________Bottom Menu ______________________________-->
         <div class="bottommenu">
             <div class="bottomlogo">
-                <span class="dotlogo">&bullet;</span><img src=""""),_display_(/*113.65*/routes/*113.71*/.Assets.at("images/collectionlogo1.png")),format.raw/*113.111*/("""" alt="logo1"><span class="dotlogo">&bullet;;</span>
+                <span class="dotlogo">&bullet;</span><img src=""""),_display_(/*116.65*/routes/*116.71*/.Assets.at("images/collectionlogo1.png")),format.raw/*116.111*/("""" alt="logo1"><span class="dotlogo">&bullet;;</span>
             </div>
             <ul class="nav nav-tabs bottomlinks">
                 <li role="presentation" ><a href="#/" role="button">ABOUT US</a></li>
@@ -168,13 +171,13 @@ http://www.tooplate.com/view/2079-garage
 				</div>
             </div>
         </div>
-        """),format.raw/*140.19*/("""
+        """),format.raw/*143.19*/("""
 
-        """),format.raw/*142.9*/("""<script type="text/javascript" src=""""),_display_(/*142.46*/routes/*142.52*/.Assets.at("javascripts/jquery-1.9.0.min.js")),format.raw/*142.97*/(""""></script>
-        <script type="text/javascript" src=""""),_display_(/*143.46*/routes/*143.52*/.Assets.at("javascripts/isotope.js")),format.raw/*143.88*/(""""></script>
-        <script type="text/javascript" src=""""),_display_(/*144.46*/routes/*144.52*/.Assets.at("javascripts/myscript.js")),format.raw/*144.89*/(""""></script>
-        """),format.raw/*145.105*/("""
-        """),format.raw/*146.9*/("""<script type="text/javascript" src=""""),_display_(/*146.46*/routes/*146.52*/.Assets.at("javascripts/bootstrap.min.js")),format.raw/*146.94*/(""""></script>
+        """),format.raw/*145.9*/("""<script type="text/javascript" src=""""),_display_(/*145.46*/routes/*145.52*/.Assets.at("javascripts/jquery-1.9.0.min.js")),format.raw/*145.97*/(""""></script>
+        <script type="text/javascript" src=""""),_display_(/*146.46*/routes/*146.52*/.Assets.at("javascripts/isotope.js")),format.raw/*146.88*/(""""></script>
+        <script type="text/javascript" src=""""),_display_(/*147.46*/routes/*147.52*/.Assets.at("javascripts/myscript.js")),format.raw/*147.89*/(""""></script>
+        """),format.raw/*148.105*/("""
+        """),format.raw/*149.9*/("""<script type="text/javascript" src=""""),_display_(/*149.46*/routes/*149.52*/.Assets.at("javascripts/bootstrap.min.js")),format.raw/*149.94*/(""""></script>
     </body>
 </html>"""))
       }
@@ -196,11 +199,11 @@ http://www.tooplate.com/view/2079-garage
 object login extends login_Scope0.login
               /*
                   -- GENERATED --
-                  DATE: Fri Oct 20 16:55:38 WAT 2017
+                  DATE: Mon Oct 23 09:13:09 WAT 2017
                   SOURCE: C:/Users/Longbridge PC/Documents/HOTMGMT/Hotel-Management-App/Hotel-Management-App/app/views/login.scala.html
-                  HASH: f26f0ca6ae14595da236905d232d01794958393b
-                  MATRIX: 827->0|1375->521|1390->527|1442->558|1527->616|1542->622|1623->681|1708->739|1723->745|1772->773|1857->831|1872->837|1922->866|3303->2220|3318->2226|3370->2256|5384->4243|5399->4249|5449->4278|7260->6061|7276->6067|7339->6107|8813->7562|8853->7574|8918->7611|8934->7617|9001->7662|9087->7720|9103->7726|9161->7762|9247->7820|9263->7826|9322->7863|9373->7980|9411->7990|9476->8027|9492->8033|9556->8075
-                  LINES: 32->1|48->17|48->17|48->17|49->18|49->18|49->18|50->19|50->19|50->19|51->20|51->20|51->20|77->46|77->46|77->46|116->85|116->85|116->85|144->113|144->113|144->113|171->140|173->142|173->142|173->142|173->142|174->143|174->143|174->143|175->144|175->144|175->144|176->145|177->146|177->146|177->146|177->146
+                  HASH: 3a5e228260a6e6c94ba15942419704f15f93fe15
+                  MATRIX: 827->0|1375->521|1390->527|1442->558|1527->616|1542->622|1623->681|1708->739|1723->745|1772->773|1857->831|1872->837|1922->866|3303->2220|3318->2226|3370->2256|5384->4243|5399->4249|5449->4278|6031->4833|6046->4839|6094->4866|6160->4905|6189->4913|6235->4931|7585->6253|7601->6259|7664->6299|9138->7754|9178->7766|9243->7803|9259->7809|9326->7854|9412->7912|9428->7918|9486->7954|9572->8012|9588->8018|9647->8055|9698->8172|9736->8182|9801->8219|9817->8225|9881->8267
+                  LINES: 32->1|48->17|48->17|48->17|49->18|49->18|49->18|50->19|50->19|50->19|51->20|51->20|51->20|77->46|77->46|77->46|116->85|116->85|116->85|124->93|124->93|124->93|125->94|125->94|126->95|147->116|147->116|147->116|174->143|176->145|176->145|176->145|176->145|177->146|177->146|177->146|178->147|178->147|178->147|179->148|180->149|180->149|180->149|180->149
                   -- GENERATED --
               */
           

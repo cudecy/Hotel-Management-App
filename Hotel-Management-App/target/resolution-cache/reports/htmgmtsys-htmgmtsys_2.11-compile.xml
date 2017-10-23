@@ -7,11 +7,11 @@
 		revision="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20171020164419"/>
+		date="20171023093515"/>
 	<dependencies>
 		<module organisation="org.apache.httpcomponents" name="httpclient">
 			<revision name="4.5.2" status="release" pubdate="20160221170550" resolver="public" artresolver="public" homepage="http://hc.apache.org/httpcomponents-client" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="117">
-				<metadata-artifact status="successful" details="" size="6393" time="1006" location="C:\Users\Longbridge PC\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.5.2.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.5.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom"/>
+				<metadata-artifact status="successful" details="" size="6393" time="447" location="C:\Users\Longbridge PC\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.5.2.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.5.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom"/>
 				<caller organisation="htmgmtsys" name="htmgmtsys_2.11" conf="compile" rev="4.5.2" rev-constraint-default="4.5.2" rev-constraint-dynamic="4.5.2" callerrev="1.0"/>
 				<caller organisation="oauth.signpost" name="signpost-commonshttp4" conf="compile, runtime" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="1.2.1.2"/>
 				<artifacts>
@@ -29,7 +29,7 @@
 		</module>
 		<module organisation="org.apache.httpcomponents" name="httpcore">
 			<revision name="4.4.4" status="release" pubdate="20151026181814" resolver="public" artresolver="public" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="118">
-				<metadata-artifact status="successful" details="" size="5522" time="976" location="C:\Users\Longbridge PC\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.4.4.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.4.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom"/>
+				<metadata-artifact status="successful" details="" size="5522" time="482" location="C:\Users\Longbridge PC\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.4.4.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.4.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom"/>
 				<caller organisation="oauth.signpost" name="signpost-commonshttp4" conf="compile, runtime" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="1.2.1.2"/>
 				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="default, compile, runtime, master" rev="4.4.4" rev-constraint-default="4.4.4" rev-constraint-dynamic="4.4.4" callerrev="4.5.2"/>
 				<artifacts>
@@ -134,7 +134,7 @@
 		<module organisation="io.netty" name="netty">
 			<revision name="3.10.4.Final" status="release" pubdate="20150630142840" resolver="public" artresolver="public" homepage="http://netty.io/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="112">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="28829" time="1285" location="C:\Users\Longbridge PC\.ivy2\cache\io.netty\netty\ivy-3.10.4.Final.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\io.netty\netty\ivy-3.10.4.Final.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.10.4.Final/netty-3.10.4.Final.pom"/>
+				<metadata-artifact status="successful" details="" size="28829" time="559" location="C:\Users\Longbridge PC\.ivy2\cache\io.netty\netty\ivy-3.10.4.Final.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\io.netty\netty\ivy-3.10.4.Final.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.10.4.Final/netty-3.10.4.Final.pom"/>
 				<caller organisation="com.typesafe.play" name="play-netty-server_2.11" conf="default, compile, runtime, master" rev="3.10.3.Final" rev-constraint-default="3.10.3.Final" rev-constraint-dynamic="3.10.3.Final" callerrev="2.4.2"/>
 				<caller organisation="com.typesafe.play" name="play-netty-server_2.11" conf="compile, runtime" rev="3.10.4.Final" rev-constraint-default="3.10.4.Final" rev-constraint-dynamic="3.10.4.Final" callerrev="2.4.8"/>
 				<caller organisation="com.ning" name="async-http-client" conf="compile, runtime" rev="3.10.1.Final" rev-constraint-default="3.10.1.Final" rev-constraint-dynamic="3.10.1.Final" callerrev="1.9.21"/>
@@ -1526,7 +1526,7 @@
 				</artifacts>
 			</revision>
 			<revision name="2.5.3" status="release" pubdate="20150425063033" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="http://wiki.fasterxml.com/JacksonModuleJSR310" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
-				<metadata-artifact status="successful" details="" size="5054" time="993" location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\ivy-2.5.3.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\ivy-2.5.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.3/jackson-datatype-jsr310-2.5.3.pom"/>
+				<metadata-artifact status="successful" details="" size="5054" time="440" location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\ivy-2.5.3.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\ivy-2.5.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.3/jackson-datatype-jsr310-2.5.3.pom"/>
 				<evicted-by rev="2.5.4"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.11" conf="compile, runtime" rev="2.5.3" rev-constraint-default="2.5.3" rev-constraint-dynamic="2.5.3" callerrev="2.4.0"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="2.5.3" rev-constraint-default="2.5.3" rev-constraint-dynamic="2.5.3" callerrev="2.4.0"/>
@@ -1550,7 +1550,7 @@
 				</artifacts>
 			</revision>
 			<revision name="2.5.3" status="release" pubdate="20150425062430" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
-				<metadata-artifact status="successful" details="" size="2975" time="982" location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\ivy-2.5.3.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\ivy-2.5.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.3/jackson-datatype-jdk8-2.5.3.pom"/>
+				<metadata-artifact status="successful" details="" size="2975" time="498" location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\ivy-2.5.3.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\ivy-2.5.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.3/jackson-datatype-jdk8-2.5.3.pom"/>
 				<evicted-by rev="2.5.4"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.11" conf="compile, runtime" rev="2.5.3" rev-constraint-default="2.5.3" rev-constraint-dynamic="2.5.3" callerrev="2.4.0"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="2.5.3" rev-constraint-default="2.5.3" rev-constraint-dynamic="2.5.3" callerrev="2.4.0"/>
@@ -1578,7 +1578,7 @@
 				</artifacts>
 			</revision>
 			<revision name="2.5.3" status="release" pubdate="20150424182507" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="http://github.com/FasterXML/jackson" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
-				<metadata-artifact status="successful" details="" size="5859" time="1000" location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.5.3.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.5.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.pom"/>
+				<metadata-artifact status="successful" details="" size="5859" time="466" location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.5.3.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.5.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.pom"/>
 				<evicted-by rev="2.5.4"/>
 				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="compile, runtime" rev="2.5.3" rev-constraint-default="2.5.3" rev-constraint-dynamic="2.5.3" callerrev="2.5.3"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.11" conf="compile, runtime" rev="2.5.3" rev-constraint-default="2.5.3" rev-constraint-dynamic="2.5.3" callerrev="2.4.0"/>
@@ -1606,7 +1606,7 @@
 				</artifacts>
 			</revision>
 			<revision name="2.5.3" status="release" pubdate="20150424180544" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="http://github.com/FasterXML/jackson" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
-				<metadata-artifact status="successful" details="" size="1219" time="974" location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.5.3.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.5.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.3/jackson-annotations-2.5.3.pom"/>
+				<metadata-artifact status="successful" details="" size="1219" time="430" location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.5.3.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.5.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.3/jackson-annotations-2.5.3.pom"/>
 				<evicted-by rev="2.5.4"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.11" conf="compile, runtime" rev="2.5.3" rev-constraint-default="2.5.3" rev-constraint-dynamic="2.5.3" callerrev="2.4.0"/>
 				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="2.5.3"/>
@@ -1645,7 +1645,7 @@
 				</artifacts>
 			</revision>
 			<revision name="2.5.3" status="release" pubdate="20150424181654" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="https://github.com/FasterXML/jackson" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
-				<metadata-artifact status="successful" details="" size="4773" time="989" location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.5.3.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.5.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.pom"/>
+				<metadata-artifact status="successful" details="" size="4773" time="476" location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.5.3.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.5.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.pom"/>
 				<evicted-by rev="2.5.4"/>
 				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="compile, runtime" rev="2.5.3" rev-constraint-default="2.5.3" rev-constraint-dynamic="2.5.3" callerrev="2.5.3"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.11" conf="compile, runtime" rev="2.5.3" rev-constraint-default="2.5.3" rev-constraint-dynamic="2.5.3" callerrev="2.4.0"/>

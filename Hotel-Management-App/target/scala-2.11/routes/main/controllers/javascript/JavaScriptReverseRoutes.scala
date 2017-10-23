@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Longbridge PC/Documents/HOTMGMT/Hotel-Management-App/Hotel-Management-App/conf/routes
-// @DATE:Fri Oct 20 16:40:57 WAT 2017
+// @DATE:Mon Oct 23 09:13:09 WAT 2017
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -15,7 +15,7 @@ import _root_.play.libs.F
 package controllers.javascript {
   import ReverseRouteContext.empty
 
-  // @LINE:18
+  // @LINE:22
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -23,7 +23,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:18
+    // @LINE:22
     def at: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.at",
       """
@@ -35,7 +35,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:13
+  // @LINE:17
   class ReverseContactController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -43,7 +43,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:13
+    // @LINE:17
     def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.ContactController.index",
       """
@@ -55,7 +55,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:8
+  // @LINE:9
   class ReverseUserController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -63,7 +63,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:11
+    // @LINE:14
     def save: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.UserController.save",
       """
@@ -73,7 +73,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:10
+    // @LINE:13
     def registration: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.UserController.registration",
       """
@@ -83,7 +83,17 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:8
+    // @LINE:10
+    def userLogin: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.UserController.userLogin",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "userLogin"})
+        }
+      """
+    )
+  
+    // @LINE:9
     def login: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.UserController.login",
       """

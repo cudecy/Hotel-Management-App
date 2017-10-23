@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20171020164419"/>
+		date="20171023093515"/>
 	<dependencies>
 		<module organisation="com.adrianhurt" name="play-bootstrap_2.11">
 			<revision name="1.1-P24-B3" status="release" pubdate="20160828194619" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://adrianhurt.github.io/play-bootstrap" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="96">
@@ -98,7 +98,7 @@
 		<module organisation="io.netty" name="netty">
 			<revision name="3.10.4.Final" status="release" pubdate="20150630142840" resolver="public" artresolver="public" homepage="http://netty.io/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="113">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="28829" time="1285" location="C:\Users\Longbridge PC\.ivy2\cache\io.netty\netty\ivy-3.10.4.Final.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\io.netty\netty\ivy-3.10.4.Final.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.10.4.Final/netty-3.10.4.Final.pom"/>
+				<metadata-artifact status="successful" details="" size="28829" time="559" location="C:\Users\Longbridge PC\.ivy2\cache\io.netty\netty\ivy-3.10.4.Final.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\io.netty\netty\ivy-3.10.4.Final.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.10.4.Final/netty-3.10.4.Final.pom"/>
 				<caller organisation="com.typesafe.play" name="play-netty-server_2.11" conf="default, compile, runtime, master" rev="3.10.3.Final" rev-constraint-default="3.10.3.Final" rev-constraint-dynamic="3.10.3.Final" callerrev="2.4.2"/>
 				<caller organisation="com.typesafe.play" name="play-netty-server_2.11" conf="compile, runtime" rev="3.10.4.Final" rev-constraint-default="3.10.4.Final" rev-constraint-dynamic="3.10.4.Final" callerrev="2.4.8"/>
 				<caller organisation="com.ning" name="async-http-client" conf="compile, runtime" rev="3.10.1.Final" rev-constraint-default="3.10.1.Final" rev-constraint-dynamic="3.10.1.Final" callerrev="1.9.21"/>
@@ -1309,7 +1309,7 @@
 		</module>
 		<module organisation="org.apache.httpcomponents" name="httpclient">
 			<revision name="4.5.2" status="release" pubdate="20160221170550" resolver="public" artresolver="public" homepage="http://hc.apache.org/httpcomponents-client" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="62">
-				<metadata-artifact status="successful" details="" size="6393" time="1006" location="C:\Users\Longbridge PC\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.5.2.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.5.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom"/>
+				<metadata-artifact status="successful" details="" size="6393" time="447" location="C:\Users\Longbridge PC\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.5.2.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.5.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom"/>
 				<caller organisation="htmgmtsys" name="htmgmtsys_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="4.5.2" rev-constraint-default="4.5.2" rev-constraint-dynamic="4.5.2" callerrev="1.0"/>
 				<caller organisation="net.sourceforge.htmlunit" name="htmlunit" conf="compile, runtime" rev="4.3.3" rev-constraint-default="4.3.3" rev-constraint-dynamic="4.3.3" callerrev="2.15"/>
 				<caller organisation="org.seleniumhq.selenium" name="selenium-htmlunit-driver" conf="compile, runtime" rev="4.3.4" rev-constraint-default="4.3.4" rev-constraint-dynamic="4.3.4" callerrev="2.44.0"/>
@@ -1347,7 +1347,7 @@
 		</module>
 		<module organisation="org.apache.httpcomponents" name="httpcore">
 			<revision name="4.4.4" status="release" pubdate="20151026181814" resolver="public" artresolver="public" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
-				<metadata-artifact status="successful" details="" size="5522" time="976" location="C:\Users\Longbridge PC\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.4.4.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.4.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom"/>
+				<metadata-artifact status="successful" details="" size="5522" time="482" location="C:\Users\Longbridge PC\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.4.4.xml" searched="true" original-local-location="C:\Users\Longbridge PC\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.4.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom"/>
 				<caller organisation="oauth.signpost" name="signpost-commonshttp4" conf="compile, runtime" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="1.2.1.2"/>
 				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="4.4.4" rev-constraint-default="4.4.4" rev-constraint-dynamic="4.4.4" callerrev="4.5.2"/>
 				<artifacts>

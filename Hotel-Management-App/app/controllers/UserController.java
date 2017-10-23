@@ -5,6 +5,7 @@ import models.AppUser;
 import play.Logger;
 import play.data.DynamicForm;
 import play.data.Form;
+import play.libs.Json;
 import play.mvc.Controller;
 import play.mvc.Result;
 import play.twirl.api.Html;
@@ -48,5 +49,18 @@ public class UserController extends Controller{
         System.out.println("mobile number is: "+appUser.mobileNumber);
         System.out.println("date is: "+appUser.date);
         return ok("Mistura ti se oh!!");
+    }
+
+    public Result userLogin(){
+        Form<AppUserForm> userLogin = Form.form(AppUserForm.class).bindFromRequest();
+        if(userLogin.hasErrors()){
+            Logger.info("form has errors...");
+            flash("danger", "Please fill with accurate information");
+            return badRequest(login.render());
+        }
+        AppUserForm form = userLogin.get();
+        Logger.info("username is: "+form.userName);
+        Logger.info("password is: "+form.password);
+        return ok("Login was successful");
     }
 }

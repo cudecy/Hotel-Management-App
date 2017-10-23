@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Longbridge PC/Documents/HOTMGMT/Hotel-Management-App/Hotel-Management-App/conf/routes
-// @DATE:Fri Oct 20 16:40:57 WAT 2017
+// @DATE:Mon Oct 23 09:13:09 WAT 2017
 
 
 package router {
